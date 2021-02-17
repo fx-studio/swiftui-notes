@@ -173,7 +173,7 @@ Ta chờ một chút thì bạn sẽ thấy được giao diện của ứng d�
 
 ---
 
-Okay, tới đây thì chúc mừng bạn đã xong bài viết này rồi đây. Quả thật là một bài khởi đầu quá vất vả với SwiftUI. Hẹn bạn ở các bài sau.
+Okay, tới đây thì mình xin kết thúc bài viết này. Hẹn bạn ở các bài sau.
 
 Cảm ơn bạn đã đọc bài viết này!
 
