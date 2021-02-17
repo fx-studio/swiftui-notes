@@ -36,9 +36,8 @@ Cấu hình đề xuất:
 ## Danh sách tìm hiểu:
 
 1. [Hello world](./001-Helloworld)
-2. Abc
-
-
+2. [Creating your UI](./002-CreatingUI)
+3. ...
 
 ---
 

@@ -1,4 +1,4 @@
-# 001 : Creating your UI
+# 002 : Creating your UI
 
 Bài viết này sẽ hướng dẫn bạn tạo giao diện một cách cơ bản nhất với SwiftUI. 
 
@@ -107,7 +107,7 @@ Và SwiftUI sẽ hỗ trợ cho chúng ta các layout cơ bản như sau:
 * HStack
 * ZStack
 
-Bạn hãy tự tìm hiểu thêm bố cục từng cái. Còn với chúng ta thì sẽ lựa chọn là `VStack`.
+Bạn hãy tự tìm hiểu thêm bố cục từng cái. Còn với chúng ta thì sẽ lựa chọn là `VStack`, để có bố cục sắp xếp thẳng đứng. Thứ tự sẽ là từ trên xuống dưới.
 
 ![img_012](../_img/012.png)
 
