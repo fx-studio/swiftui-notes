@@ -39,7 +39,8 @@ Cấu hình đề xuất:
 2. [Creating your UI](./002-CreatingUI)
 3. [Updating the UI](./003-UpdatingUI)
 4. [Presenting an Alert](./004-PresentingAlert)
-5. ...
+5. [Extracting Subviews](./005-ExtractingSubviews)
+6. ...
 
 ---
 
