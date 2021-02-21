@@ -13,4 +13,17 @@ class MyAppDelegate: NSObject, UIApplicationDelegate {
         print("AppDelegate > didFinishLaunchingWithOptions > called")
         return true
     }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        print("AppDelegate > applicationDidBecomeActive > called")
+    }
+    
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        print("AppDelegate > applicationDidEnterBackground > called")
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        print("AppDelegate > URL > called")
+        return true
+    }
 }
