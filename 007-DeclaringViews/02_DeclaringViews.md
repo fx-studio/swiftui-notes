@@ -17,3 +17,7 @@ Phần thứ 2 là các Modifiers. Nó là các công cụ sửa đổi cho các
 ![img_024](../_img/024.png)
 
 SwiftUI khuyến khích bạn tạo các Reusable View để tái sử dụng nhiều lần. Về hiển thị thì SwiftUI sẽ hỗ trợ hiển thị từng view riêng lẻ. Bạn sẽ thoải mái sáng tạo mà không sợ việc ảnh hưởng giao diện chung khi thay đổi 1 view nhỏ.
+
+---
+
+Về các chủ đề riêng lẻ cho các View & Modifers thì mình sẽ cập nhật sau. Ahihi!
