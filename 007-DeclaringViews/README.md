@@ -8,4 +8,5 @@ Vì có nhiều khái niệm được trình bày nên mình sẽ chia ra nhiề
 
 1. [Declarative App Development](01_DeclarativeApp.md)
 2. [Declaring Views](02_DeclaringViews.md)
-3. 
+3. [Environment values](03_EnvironmentValues.md)
+4. ...
