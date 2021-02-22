@@ -20,4 +20,5 @@ SwiftUI khuyến khích bạn tạo các Reusable View để tái sử dụng nh
 
 ---
 
-Về các chủ đề riêng lẻ cho các View & Modifers thì mình sẽ cập nhật sau. Ahihi!
+Về các chủ đề riêng lẻ cho các View & Modifiers thì mình sẽ cập nhật sau. Ahihi!
+
