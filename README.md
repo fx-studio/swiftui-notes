@@ -35,13 +35,22 @@ Cấu hình đề xuất:
 
 ## Danh sách tìm hiểu:
 
+### Part I : Getting started
+
 1. [Hello world](./001-Helloworld)
 2. [Creating your UI](./002-CreatingUI)
 3. [Updating the UI](./003-UpdatingUI)
 4. [Presenting an Alert](./004-PresentingAlert)
 5. [Extracting Subviews](./005-ExtractingSubviews)
-6. [SwiftUI App Life Cycle](./006-LifeCycleApp)
-7. ...
+
+### Part II : SwiftUI App 
+
+1. [SwiftUI App Life Cycle](./006-LifeCycleApp)
+2. [Declaring views](./007-DeclaringViews)
+   1. [Declarative App Development](./007-DeclaringViews/01_DeclarativeApp.md)
+   2. [Declaring Views](./007-DeclaringViews/02_DeclaringViews.md)
+   3. ...
+3. ...
 
 ---
 
