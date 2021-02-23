@@ -50,7 +50,8 @@ Cấu hình đề xuất:
    1. [Declarative App Development](./007-DeclaringViews/01_DeclarativeApp.md)
    2. [Declaring Views](./007-DeclaringViews/02_DeclaringViews.md)
    3. [Environment values](./007-DeclaringViews/03_EnvironmentValues.md)
-   4. ...
+   4. [Reusable Views](./007-DeclaringViews/04_ReusableViews.md)
+   5. ...
 3. ...
 
 ---
