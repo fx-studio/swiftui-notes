@@ -51,8 +51,8 @@ Cấu hình đề xuất:
    2. [Declaring Views](./007-DeclaringViews/02_DeclaringViews.md)
    3. [Environment values](./007-DeclaringViews/03_EnvironmentValues.md)
    4. [Reusable Views](./007-DeclaringViews/04_ReusableViews.md)
-   5. ...
-3. ...
+3. [Basic Layout](./008-BasicLayout)
+4. ...
 
 ---
 
