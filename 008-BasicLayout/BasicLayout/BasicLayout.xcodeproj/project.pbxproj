@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EAFEE6C25E7914300F2550C /* MonstarlabLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAFEE6B25E7914300F2550C /* MonstarlabLogoView.swift */; };
 		9EE9831525E755F300A97474 /* BasicLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9831425E755F300A97474 /* BasicLayoutApp.swift */; };
 		9EE9831725E755F300A97474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9831625E755F300A97474 /* ContentView.swift */; };
 		9EE9831925E755F400A97474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE9831825E755F400A97474 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EAFEE6B25E7914300F2550C /* MonstarlabLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstarlabLogoView.swift; sourceTree = "<group>"; };
 		9EE9831125E755F300A97474 /* BasicLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE9831425E755F300A97474 /* BasicLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayoutApp.swift; sourceTree = "<group>"; };
 		9EE9831625E755F300A97474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				9EE9832725E7564E00A97474 /* DemoZStack.swift */,
 				9EE9832825E7564E00A97474 /* DemoHStack.swift */,
 				9EE9832925E7564E00A97474 /* DemoVStack.swift */,
+				9EAFEE6B25E7914300F2550C /* MonstarlabLogoView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				9EE9832B25E7564E00A97474 /* DemoZStack.swift in Sources */,
 				9EE9831725E755F300A97474 /* ContentView.swift in Sources */,
+				9EAFEE6C25E7914300F2550C /* MonstarlabLogoView.swift in Sources */,
 				9EE9832A25E7564E00A97474 /* ItemView.swift in Sources */,
 				9EE9832C25E7564E00A97474 /* DemoHStack.swift in Sources */,
 				9EE9832D25E7564E00A97474 /* DemoVStack.swift in Sources */,
