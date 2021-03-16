@@ -32,7 +32,7 @@ Còn với SwiftUI, ta có 2 nguyên tắc hướng dẫn cách để quản lý
 ### Single source of truth
 
 * Được xem là nguồn chân lý/sự thật. Nơi sẽ chứa dữ liệu của 1 View nào đó.
-* Dữ liệu của 1 View có sẽ nguồn riêng của riêng nó hoặc đến từ một View biên ngoài khác.
+* Dữ liệu của 1 View là `nguồn dữ liệu` mà của riêng nó hoặc từ một View khác bên ngoài.
 * Bất kể nằm ở đâu thì nguồn này là duy nhất.
 * Quản lý việc cập nhật lại giá trị của dữ liệu và gây ảnh hưởng lên 1 hoặc nhiều View có sự liên kết với nguồn này.
 
