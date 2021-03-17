@@ -11,8 +11,17 @@ struct ContentView: View {
     @State var item: Score = Score()
     
     var body: some View {
-        StateView(item: $item)
-    }
+            Button(action: {
+                item.count += 1
+            }, label: {
+                Text("Tap me!\n\(item.count)")
+                    .font(.title)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+            })
+            .padding()
+            .background(Color(.blue))
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {
