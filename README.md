@@ -56,7 +56,7 @@ Cấu hình đề xuất:
 
 ### [Part III : SwiftUI vs. UIKit](./010-SwiftUIVsUIKit)
 
-1. SwiftUI in UIKit Project
+1. [SwiftUI in UIKit Project](./010-SwiftUIVsUIKit/011_SwiftUIinUIKit.md)
 2. UIViewController in SwiftUI Project
 3. UIView in SwiftUI Project
 4. UIKit data in SwiftUI Project
