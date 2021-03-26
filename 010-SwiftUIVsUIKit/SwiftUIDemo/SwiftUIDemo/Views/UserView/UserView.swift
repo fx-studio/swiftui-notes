@@ -35,5 +35,7 @@ struct UserView: View {
                 Text("Tap me!")
             }
         }
+        .padding()
+        //.navigationBarTitle("Profile", displayMode: .inline)
     }
 }
