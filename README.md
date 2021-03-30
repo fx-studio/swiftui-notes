@@ -58,7 +58,7 @@ Cấu hình đề xuất:
 
 1. [SwiftUI in UIKit Project](./010-SwiftUIVsUIKit/011_SwiftUIinUIKit.md)
 2. [UIViewController in SwiftUI Project](./010-SwiftUIVsUIKit/012_UIKitinSwiftUI.md)
-3. UIView in SwiftUI Project
+3. [UIView in SwiftUI Project](./010-SwiftUIVsUIKit/013_UIViewInSwiftUI.md)
 4. UIKit data in SwiftUI Project
 
 ---

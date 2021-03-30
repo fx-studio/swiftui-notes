@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1341C02611777500C242DF /* MyColorUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1341BF2611777500C242DF /* MyColorUISlider.swift */; };
 		9E44261E260C71A700F2A0E3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44261D260C71A700F2A0E3 /* UserView.swift */; };
 		9E442625260C71F200F2A0E3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E442623260C71F200F2A0E3 /* LoginViewController.xib */; };
 		9E442626260C71F200F2A0E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E442624260C71F200F2A0E3 /* LoginViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E1341BF2611777500C242DF /* MyColorUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorUISlider.swift; sourceTree = "<group>"; };
 		9E44261D260C71A700F2A0E3 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		9E442623260C71F200F2A0E3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		9E442624260C71F200F2A0E3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				9E44261D260C71A700F2A0E3 /* UserView.swift */,
+				9E1341BF2611777500C242DF /* MyColorUISlider.swift */,
 			);
 			path = UserView;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1341C02611777500C242DF /* MyColorUISlider.swift in Sources */,
 				9E442629260C755800F2A0E3 /* LoginViewControllerRepresentation.swift in Sources */,
 				9E442626260C71F200F2A0E3 /* LoginViewController.swift in Sources */,
 				9E7FAC8926083CA100D01422 /* ContentView.swift in Sources */,
