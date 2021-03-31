@@ -24,23 +24,34 @@ struct UserView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "person.crop.square")
-                .resizable()
-                .foregroundColor(Color(red: redValue, green: greenValue, blue: blueValue, opacity: 1.0))
-            Text(name)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-            Button(action: {
-                print("Select: \(name)")
-                if let action = action {
-                    action(name)
+            HStack {
+                VStack {
+                    MyAvatar(name: name, redValue: $redValue, blueValue: $blueValue, greenValue: $greenValue)
+
                 }
-                redValue = Double.random(in: 0...1)
-                blueValue = Double.random(in: 0...1)
-                greenValue = Double.random(in: 0...1)
-                
-            }) {
-                Text("Tap me!")
+                .frame(height: 350, alignment: .center)
+                VStack {
+                    Image(systemName: "person.crop.square")
+                        .resizable()
+                        .aspectRatio(1.0, contentMode: .fit)
+                        .foregroundColor(Color(red: redValue, green: greenValue, blue: blueValue, opacity: 1.0))
+                    Text(name)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                    Button(action: {
+                        print("Select: \(name)")
+                        if let action = action {
+                            action(name)
+                        }
+                        redValue = Double.random(in: 0...1)
+                        blueValue = Double.random(in: 0...1)
+                        greenValue = Double.random(in: 0...1)
+                        
+                    }) {
+                        Text("Tap me!")
+                    }
+                }
+                .frame(height: 350, alignment: .center)
             }
             VStack {
                 MyColorUISlider(color: .red, value: $redValue)

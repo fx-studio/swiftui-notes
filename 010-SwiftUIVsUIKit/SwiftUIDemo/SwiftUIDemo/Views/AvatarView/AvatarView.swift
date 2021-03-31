@@ -7,14 +7,33 @@
 
 import UIKit
 
+protocol AvatarViewDelegate: class {
+    func avatarView(avatarView: AvatarView, name: String)
+}
+
 class AvatarView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    //MARK: Outlets
+    @IBOutlet weak var avatarImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    //MARK: Properties
+    var name: String = "Noname"
+    var color: UIColor = .blue
+    
+    weak var delegate: AvatarViewDelegate?
+    
+    //MARK: ConfigView
+    func updateView() {
+        nameLabel.text = name
+        avatarImageView.tintColor = color
     }
-    */
-
+    
+    //MARK: Actions
+    @IBAction func tap(_ sender: Any) {
+        if let delegate = delegate {
+            delegate.avatarView(avatarView: self, name: name)
+        }
+    }
+    
 }
