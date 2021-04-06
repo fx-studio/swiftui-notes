@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E864241261C079500AA4DAA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5766261ACFC30099450D /* GameView.swift */; };
 		9EBA5735261ACF4F0099450D /* DemoGameTappy00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */; };
 		9EBA5737261ACF4F0099450D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5736261ACF4F0099450D /* ContentView.swift */; };
 		9EBA5739261ACF500099450D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA5738261ACF500099450D /* Assets.xcassets */; };
 		9EBA573C261ACF500099450D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA573B261ACF500099450D /* Preview Assets.xcassets */; };
 		9EBA5747261ACF500099450D /* DemoGameTappy00Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5746261ACF500099450D /* DemoGameTappy00Tests.swift */; };
 		9EBA5752261ACF500099450D /* DemoGameTappy00UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5751261ACF500099450D /* DemoGameTappy00UITests.swift */; };
-		9EBA5767261ACFC30099450D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5766261ACFC30099450D /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +99,6 @@
 			children = (
 				9EBA5763261ACF7F0099450D /* App */,
 				9EBA5764261ACF8A0099450D /* Views */,
-				9EBA5762261ACF720099450D /* GameView */,
-				9EBA5765261ACF960099450D /* Models */,
 				9EBA5738261ACF500099450D /* Assets.xcassets */,
 				9EBA573D261ACF500099450D /* Info.plist */,
 				9EBA573A261ACF500099450D /* Preview Content */,
@@ -134,14 +132,6 @@
 			path = DemoGameTappy00UITests;
 			sourceTree = "<group>";
 		};
-		9EBA5762261ACF720099450D /* GameView */ = {
-			isa = PBXGroup;
-			children = (
-				9EBA5766261ACFC30099450D /* GameView.swift */,
-			);
-			path = GameView;
-			sourceTree = "<group>";
-		};
 		9EBA5763261ACF7F0099450D /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,15 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				9EBA5736261ACF4F0099450D /* ContentView.swift */,
+				9EBA5766261ACFC30099450D /* GameView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		9EBA5765261ACF960099450D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBA5737261ACF4F0099450D /* ContentView.swift in Sources */,
-				9EBA5767261ACFC30099450D /* GameView.swift in Sources */,
+				9E864241261C079500AA4DAA /* GameView.swift in Sources */,
 				9EBA5735261ACF4F0099450D /* DemoGameTappy00App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
