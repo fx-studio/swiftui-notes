@@ -63,7 +63,7 @@ Cấu hình đề xuất:
 
 ### [Part IV : Apple Ecosystem](./011-AppleEcosystem)
 
-1. [Swift Package](./011-AppleEcosystem/011_1_Swift Package.md)
+1. [Swift Package](./011-AppleEcosystem/011_1_SwiftPackage.md)
 2. ...
 
 ---
