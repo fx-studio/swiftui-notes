@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Game
 
 struct ContentView: View {
     var body: some View {

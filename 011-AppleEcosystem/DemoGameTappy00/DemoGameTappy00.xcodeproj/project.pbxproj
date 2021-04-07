@@ -3,84 +3,161 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E864241261C079500AA4DAA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5766261ACFC30099450D /* GameView.swift */; };
+		9E86424E261C096D00AA4DAA /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 9E86424D261C096D00AA4DAA /* Game */; };
+		9E864260261C0C6600AA4DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E86425F261C0C6600AA4DAA /* Assets.xcassets */; };
+		9E864267261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E86426C261C0C6600AA4DAA /* DemoGameTappy00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E86426B261C0C6600AA4DAA /* DemoGameTappy00App.swift */; };
+		9E86426E261C0C6600AA4DAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E86426D261C0C6600AA4DAA /* ContentView.swift */; };
+		9E864270261C0C6600AA4DAA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E86426F261C0C6600AA4DAA /* NotificationController.swift */; };
+		9E864272261C0C6600AA4DAA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E864271261C0C6600AA4DAA /* NotificationView.swift */; };
+		9E864274261C0C6600AA4DAA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E864273261C0C6600AA4DAA /* ComplicationController.swift */; };
+		9E864276261C0C6600AA4DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E864275261C0C6600AA4DAA /* Assets.xcassets */; };
+		9E864279261C0C6600AA4DAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E864278261C0C6600AA4DAA /* Preview Assets.xcassets */; };
+		9E86427E261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E86428B261C0C7A00AA4DAA /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 9E86428A261C0C7A00AA4DAA /* Game */; };
 		9EBA5735261ACF4F0099450D /* DemoGameTappy00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */; };
 		9EBA5737261ACF4F0099450D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5736261ACF4F0099450D /* ContentView.swift */; };
 		9EBA5739261ACF500099450D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA5738261ACF500099450D /* Assets.xcassets */; };
 		9EBA573C261ACF500099450D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA573B261ACF500099450D /* Preview Assets.xcassets */; };
-		9EBA5747261ACF500099450D /* DemoGameTappy00Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5746261ACF500099450D /* DemoGameTappy00Tests.swift */; };
-		9EBA5752261ACF500099450D /* DemoGameTappy00UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5751261ACF500099450D /* DemoGameTappy00UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EBA5743261ACF500099450D /* PBXContainerItemProxy */ = {
+		9E864268261C0C6600AA4DAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9EBA5729261ACF4F0099450D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EBA5730261ACF4F0099450D;
-			remoteInfo = DemoGameTappy00;
+			remoteGlobalIDString = 9E864265261C0C6600AA4DAA;
+			remoteInfo = "DemoGameTappy00_WatchKIt Extension";
 		};
-		9EBA574E261ACF500099450D /* PBXContainerItemProxy */ = {
+		9E86427C261C0C6600AA4DAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9EBA5729261ACF4F0099450D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EBA5730261ACF4F0099450D;
-			remoteInfo = DemoGameTappy00;
+			remoteGlobalIDString = 9E86425C261C0C6500AA4DAA;
+			remoteInfo = DemoGameTappy00_WatchKIt;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9E864282261C0C6600AA4DAA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E864267261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864286261C0C6600AA4DAA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9E86427E261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9E864245261C08A500AA4DAA /* Game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Game; path = ../../packages/Game; sourceTree = "<group>"; };
+		9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGameTappy00_WatchKIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E86425F261C0C6600AA4DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E864261261C0C6600AA4DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DemoGameTappy00_WatchKIt Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E86426B261C0C6600AA4DAA /* DemoGameTappy00App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00App.swift; sourceTree = "<group>"; };
+		9E86426D261C0C6600AA4DAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E86426F261C0C6600AA4DAA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9E864271261C0C6600AA4DAA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9E864273261C0C6600AA4DAA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		9E864275261C0C6600AA4DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E864278261C0C6600AA4DAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E86427A261C0C6600AA4DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E86427B261C0C6600AA4DAA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		9EBA5731261ACF4F0099450D /* DemoGameTappy00.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGameTappy00.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00App.swift; sourceTree = "<group>"; };
 		9EBA5736261ACF4F0099450D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EBA5738261ACF500099450D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EBA573B261ACF500099450D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EBA573D261ACF500099450D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EBA5742261ACF500099450D /* DemoGameTappy00Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGameTappy00Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EBA5746261ACF500099450D /* DemoGameTappy00Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00Tests.swift; sourceTree = "<group>"; };
-		9EBA5748261ACF500099450D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EBA574D261ACF500099450D /* DemoGameTappy00UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGameTappy00UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EBA5751261ACF500099450D /* DemoGameTappy00UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00UITests.swift; sourceTree = "<group>"; };
-		9EBA5753261ACF500099450D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EBA5766261ACFC30099450D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9E864263261C0C6600AA4DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E86428B261C0C7A00AA4DAA /* Game in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EBA572E261ACF4F0099450D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EBA573F261ACF500099450D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EBA574A261ACF500099450D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9E86424E261C096D00AA4DAA /* Game in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E86424C261C096D00AA4DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E86425E261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */ = {
+			isa = PBXGroup;
+			children = (
+				9E86425F261C0C6600AA4DAA /* Assets.xcassets */,
+				9E864261261C0C6600AA4DAA /* Info.plist */,
+			);
+			path = DemoGameTappy00_WatchKIt;
+			sourceTree = "<group>";
+		};
+		9E86426A261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E86426B261C0C6600AA4DAA /* DemoGameTappy00App.swift */,
+				9E86426D261C0C6600AA4DAA /* ContentView.swift */,
+				9E86426F261C0C6600AA4DAA /* NotificationController.swift */,
+				9E864271261C0C6600AA4DAA /* NotificationView.swift */,
+				9E864273261C0C6600AA4DAA /* ComplicationController.swift */,
+				9E864275261C0C6600AA4DAA /* Assets.xcassets */,
+				9E86427A261C0C6600AA4DAA /* Info.plist */,
+				9E86427B261C0C6600AA4DAA /* PushNotificationPayload.apns */,
+				9E864277261C0C6600AA4DAA /* Preview Content */,
+			);
+			path = "DemoGameTappy00_WatchKIt Extension";
+			sourceTree = "<group>";
+		};
+		9E864277261C0C6600AA4DAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E864278261C0C6600AA4DAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		9EBA5728261ACF4F0099450D = {
 			isa = PBXGroup;
 			children = (
 				9EBA5733261ACF4F0099450D /* DemoGameTappy00 */,
-				9EBA5745261ACF500099450D /* DemoGameTappy00Tests */,
-				9EBA5750261ACF500099450D /* DemoGameTappy00UITests */,
+				9E86425E261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */,
+				9E86426A261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */,
 				9EBA5732261ACF4F0099450D /* Products */,
+				9E86424C261C096D00AA4DAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				9EBA5731261ACF4F0099450D /* DemoGameTappy00.app */,
-				9EBA5742261ACF500099450D /* DemoGameTappy00Tests.xctest */,
-				9EBA574D261ACF500099450D /* DemoGameTappy00UITests.xctest */,
+				9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */,
+				9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +174,7 @@
 		9EBA5733261ACF4F0099450D /* DemoGameTappy00 */ = {
 			isa = PBXGroup;
 			children = (
+				9E864245261C08A500AA4DAA /* Game */,
 				9EBA5763261ACF7F0099450D /* App */,
 				9EBA5764261ACF8A0099450D /* Views */,
 				9EBA5738261ACF500099450D /* Assets.xcassets */,
@@ -114,24 +192,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9EBA5745261ACF500099450D /* DemoGameTappy00Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9EBA5746261ACF500099450D /* DemoGameTappy00Tests.swift */,
-				9EBA5748261ACF500099450D /* Info.plist */,
-			);
-			path = DemoGameTappy00Tests;
-			sourceTree = "<group>";
-		};
-		9EBA5750261ACF500099450D /* DemoGameTappy00UITests */ = {
-			isa = PBXGroup;
-			children = (
-				9EBA5751261ACF500099450D /* DemoGameTappy00UITests.swift */,
-				9EBA5753261ACF500099450D /* Info.plist */,
-			);
-			path = DemoGameTappy00UITests;
-			sourceTree = "<group>";
-		};
 		9EBA5763261ACF7F0099450D /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				9EBA5736261ACF4F0099450D /* ContentView.swift */,
-				9EBA5766261ACFC30099450D /* GameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +211,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9E86425C261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E864283261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt" */;
+			buildPhases = (
+				9E86425B261C0C6500AA4DAA /* Resources */,
+				9E864282261C0C6600AA4DAA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E864269261C0C6600AA4DAA /* PBXTargetDependency */,
+			);
+			name = DemoGameTappy00_WatchKIt;
+			productName = DemoGameTappy00_WatchKIt;
+			productReference = 9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9E864265261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E86427F261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt Extension" */;
+			buildPhases = (
+				9E864262261C0C6600AA4DAA /* Sources */,
+				9E864263261C0C6600AA4DAA /* Frameworks */,
+				9E864264261C0C6600AA4DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoGameTappy00_WatchKIt Extension";
+			packageProductDependencies = (
+				9E86428A261C0C7A00AA4DAA /* Game */,
+			);
+			productName = "DemoGameTappy00_WatchKIt Extension";
+			productReference = 9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		9EBA5730261ACF4F0099450D /* DemoGameTappy00 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EBA5756261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00" */;
@@ -159,51 +255,20 @@
 				9EBA572D261ACF4F0099450D /* Sources */,
 				9EBA572E261ACF4F0099450D /* Frameworks */,
 				9EBA572F261ACF4F0099450D /* Resources */,
+				9E864286261C0C6600AA4DAA /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E86427D261C0C6600AA4DAA /* PBXTargetDependency */,
 			);
 			name = DemoGameTappy00;
+			packageProductDependencies = (
+				9E86424D261C096D00AA4DAA /* Game */,
+			);
 			productName = DemoGameTappy00;
 			productReference = 9EBA5731261ACF4F0099450D /* DemoGameTappy00.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9EBA5741261ACF500099450D /* DemoGameTappy00Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EBA5759261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00Tests" */;
-			buildPhases = (
-				9EBA573E261ACF500099450D /* Sources */,
-				9EBA573F261ACF500099450D /* Frameworks */,
-				9EBA5740261ACF500099450D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EBA5744261ACF500099450D /* PBXTargetDependency */,
-			);
-			name = DemoGameTappy00Tests;
-			productName = DemoGameTappy00Tests;
-			productReference = 9EBA5742261ACF500099450D /* DemoGameTappy00Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9EBA574C261ACF500099450D /* DemoGameTappy00UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EBA575C261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00UITests" */;
-			buildPhases = (
-				9EBA5749261ACF500099450D /* Sources */,
-				9EBA574A261ACF500099450D /* Frameworks */,
-				9EBA574B261ACF500099450D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EBA574F261ACF500099450D /* PBXTargetDependency */,
-			);
-			name = DemoGameTappy00UITests;
-			productName = DemoGameTappy00UITests;
-			productReference = 9EBA574D261ACF500099450D /* DemoGameTappy00UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -214,16 +279,14 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					9E86425C261C0C6500AA4DAA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9E864265261C0C6600AA4DAA = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					9EBA5730261ACF4F0099450D = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					9EBA5741261ACF500099450D = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 9EBA5730261ACF4F0099450D;
-					};
-					9EBA574C261ACF500099450D = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 9EBA5730261ACF4F0099450D;
 					};
 				};
 			};
@@ -241,13 +304,30 @@
 			projectRoot = "";
 			targets = (
 				9EBA5730261ACF4F0099450D /* DemoGameTappy00 */,
-				9EBA5741261ACF500099450D /* DemoGameTappy00Tests */,
-				9EBA574C261ACF500099450D /* DemoGameTappy00UITests */,
+				9E86425C261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */,
+				9E864265261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9E86425B261C0C6500AA4DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E864260261C0C6600AA4DAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864264261C0C6600AA4DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E864279261C0C6600AA4DAA /* Preview Assets.xcassets in Resources */,
+				9E864276261C0C6600AA4DAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EBA572F261ACF4F0099450D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,65 +337,134 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EBA5740261ACF500099450D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EBA574B261ACF500099450D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9E864262261C0C6600AA4DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E864270261C0C6600AA4DAA /* NotificationController.swift in Sources */,
+				9E86426E261C0C6600AA4DAA /* ContentView.swift in Sources */,
+				9E864274261C0C6600AA4DAA /* ComplicationController.swift in Sources */,
+				9E86426C261C0C6600AA4DAA /* DemoGameTappy00App.swift in Sources */,
+				9E864272261C0C6600AA4DAA /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EBA572D261ACF4F0099450D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9EBA5737261ACF4F0099450D /* ContentView.swift in Sources */,
-				9E864241261C079500AA4DAA /* GameView.swift in Sources */,
 				9EBA5735261ACF4F0099450D /* DemoGameTappy00App.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EBA573E261ACF500099450D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EBA5747261ACF500099450D /* DemoGameTappy00Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EBA5749261ACF500099450D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EBA5752261ACF500099450D /* DemoGameTappy00UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EBA5744261ACF500099450D /* PBXTargetDependency */ = {
+		9E864269261C0C6600AA4DAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EBA5730261ACF4F0099450D /* DemoGameTappy00 */;
-			targetProxy = 9EBA5743261ACF500099450D /* PBXContainerItemProxy */;
+			target = 9E864265261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */;
+			targetProxy = 9E864268261C0C6600AA4DAA /* PBXContainerItemProxy */;
 		};
-		9EBA574F261ACF500099450D /* PBXTargetDependency */ = {
+		9E86427D261C0C6600AA4DAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EBA5730261ACF4F0099450D /* DemoGameTappy00 */;
-			targetProxy = 9EBA574E261ACF500099450D /* PBXContainerItemProxy */;
+			target = 9E86425C261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */;
+			targetProxy = 9E86427C261C0C6600AA4DAA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9E864280261C0C6600AA4DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00_WatchKIt Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DemoGameTappy00_WatchKIt Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		9E864281261C0C6600AA4DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00_WatchKIt Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DemoGameTappy00_WatchKIt Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		9E864284261C0C6600AA4DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG598U658S;
+				IBSC_MODULE = DemoGameTappy00_WatchKIt_Extension;
+				INFOPLIST_FILE = DemoGameTappy00_WatchKIt/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		9E864285261C0C6600AA4DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG598U658S;
+				IBSC_MODULE = DemoGameTappy00_WatchKIt_Extension;
+				INFOPLIST_FILE = DemoGameTappy00_WatchKIt/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
 		9EBA5754261ACF500099450D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -476,93 +625,27 @@
 			};
 			name = Release;
 		};
-		9EBA575A261ACF500099450D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG598U658S;
-				INFOPLIST_FILE = DemoGameTappy00Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGameTappy00.app/DemoGameTappy00";
-			};
-			name = Debug;
-		};
-		9EBA575B261ACF500099450D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG598U658S;
-				INFOPLIST_FILE = DemoGameTappy00Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGameTappy00.app/DemoGameTappy00";
-			};
-			name = Release;
-		};
-		9EBA575D261ACF500099450D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG598U658S;
-				INFOPLIST_FILE = DemoGameTappy00UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoGameTappy00;
-			};
-			name = Debug;
-		};
-		9EBA575E261ACF500099450D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG598U658S;
-				INFOPLIST_FILE = DemoGameTappy00UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoGameTappy00;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9E86427F261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E864280261C0C6600AA4DAA /* Debug */,
+				9E864281261C0C6600AA4DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E864283261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E864284261C0C6600AA4DAA /* Debug */,
+				9E864285261C0C6600AA4DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9EBA572C261ACF4F0099450D /* Build configuration list for PBXProject "DemoGameTappy00" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -581,25 +664,18 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EBA5759261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EBA575A261ACF500099450D /* Debug */,
-				9EBA575B261ACF500099450D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9EBA575C261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EBA575D261ACF500099450D /* Debug */,
-				9EBA575E261ACF500099450D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E86424D261C096D00AA4DAA /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+		9E86428A261C0C7A00AA4DAA /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EBA5729261ACF4F0099450D /* Project object */;
 }
