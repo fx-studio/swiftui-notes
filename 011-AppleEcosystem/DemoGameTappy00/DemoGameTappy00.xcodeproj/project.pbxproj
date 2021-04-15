@@ -391,7 +391,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -415,7 +415,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -435,7 +435,7 @@
 				DEVELOPMENT_TEAM = QG598U658S;
 				IBSC_MODULE = DemoGameTappy00_WatchKIt_Extension;
 				INFOPLIST_FILE = DemoGameTappy00_WatchKIt/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -455,7 +455,7 @@
 				DEVELOPMENT_TEAM = QG598U658S;
 				IBSC_MODULE = DemoGameTappy00_WatchKIt_Extension;
 				INFOPLIST_FILE = DemoGameTappy00_WatchKIt/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -596,7 +596,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -618,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fx-Studio.DemoGameTappy00";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
