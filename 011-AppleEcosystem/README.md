@@ -21,7 +21,7 @@ Tuy nhiên, tất cả demo và trình bày lý thuyết chỉ là trên một n
 
 1. [Swift Package](./011_1_SwiftPackage.md)
 2. [WatchOS App](./011_2_WatchOSApp.md)
-3. Extend Mac Catalyst App
+3. [Extend Mac Catalyst App](./011_3_MacCatalystApp.md)
 4. MacOS App
 5. tvOS App
 6. Multi-platform App

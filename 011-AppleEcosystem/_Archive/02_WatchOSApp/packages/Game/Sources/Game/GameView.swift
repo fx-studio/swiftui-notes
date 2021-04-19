@@ -30,8 +30,8 @@ public struct GameView: View {
     @State private var timerSubscription: Cancellable?
     
     var isWatchOS: Bool
-        
-    public init(width: CGFloat = 300.0, isWatchOS: Bool = false) {
+    
+    public init(width: CGFloat, isWatchOS: Bool = false) {
         self.width = width
         self.isWatchOS = isWatchOS
     }
@@ -140,25 +140,15 @@ public struct GameView: View {
             
         } else {
             cancelTimer()
-            
-            if UserDefaults.standard.bool(forKey: "auto_win") {
-                
+            if count != 0 {
+                self.backgroundColor = Color(.red)
+                self.status = "Game over!"
+                self.gameState = .gameover
+            } else {
                 self.backgroundColor = Color(.blue)
                 self.status = "You win!"
                 self.gameState = .winner
-                
-            } else {
-                if count != 0 {
-                    self.backgroundColor = Color(.red)
-                    self.status = "Game over!"
-                    self.gameState = .gameover
-                } else {
-                    self.backgroundColor = Color(.blue)
-                    self.status = "You win!"
-                    self.gameState = .winner
-                }
             }
-
         }
     }
     
