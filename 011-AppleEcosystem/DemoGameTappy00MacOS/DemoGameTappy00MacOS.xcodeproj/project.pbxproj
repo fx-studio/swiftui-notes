@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E1509F4262D61900037FC82 /* DemoGameTappy00MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1509F3262D61900037FC82 /* DemoGameTappy00MacOSApp.swift */; };
+		9E1509F6262D61900037FC82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1509F5262D61900037FC82 /* ContentView.swift */; };
+		9E1509F8262D61900037FC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1509F7262D61900037FC82 /* Assets.xcassets */; };
+		9E1509FB262D61900037FC82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1509FA262D61900037FC82 /* Preview Assets.xcassets */; };
+		9E150A07262D61900037FC82 /* DemoGameTappy00MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E150A06262D61900037FC82 /* DemoGameTappy00MacOSTests.swift */; };
+		9E150A12262D61900037FC82 /* DemoGameTappy00MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E150A11262D61900037FC82 /* DemoGameTappy00MacOSUITests.swift */; };
+		9E150A3A262D643C0037FC82 /* GameView in Frameworks */ = {isa = PBXBuildFile; productRef = 9E150A39262D643C0037FC82 /* GameView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E150A03262D61900037FC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1509E8262D61900037FC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1509EF262D61900037FC82;
+			remoteInfo = DemoGameTappy00MacOS;
+		};
+		9E150A0E262D61900037FC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1509E8262D61900037FC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1509EF262D61900037FC82;
+			remoteInfo = DemoGameTappy00MacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E1509F0262D61900037FC82 /* DemoGameTappy00MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGameTappy00MacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1509F3262D61900037FC82 /* DemoGameTappy00MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00MacOSApp.swift; sourceTree = "<group>"; };
+		9E1509F5262D61900037FC82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E1509F7262D61900037FC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E1509FA262D61900037FC82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E1509FC262D61900037FC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1509FD262D61900037FC82 /* DemoGameTappy00MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoGameTappy00MacOS.entitlements; sourceTree = "<group>"; };
+		9E150A02262D61900037FC82 /* DemoGameTappy00MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGameTappy00MacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E150A06262D61900037FC82 /* DemoGameTappy00MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00MacOSTests.swift; sourceTree = "<group>"; };
+		9E150A08262D61900037FC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E150A0D262D61900037FC82 /* DemoGameTappy00MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGameTappy00MacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E150A11262D61900037FC82 /* DemoGameTappy00MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00MacOSUITests.swift; sourceTree = "<group>"; };
+		9E150A13262D61900037FC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E150A35262D64300037FC82 /* GameView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameView; path = ../../packages/GameView; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E1509ED262D61900037FC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E150A3A262D643C0037FC82 /* GameView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1509FF262D61900037FC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E150A0A262D61900037FC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E1509E7262D61900037FC82 = {
+			isa = PBXGroup;
+			children = (
+				9E1509F2262D61900037FC82 /* DemoGameTappy00MacOS */,
+				9E150A05262D61900037FC82 /* DemoGameTappy00MacOSTests */,
+				9E150A10262D61900037FC82 /* DemoGameTappy00MacOSUITests */,
+				9E1509F1262D61900037FC82 /* Products */,
+				9E150A26262D61EF0037FC82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E1509F1262D61900037FC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E1509F0262D61900037FC82 /* DemoGameTappy00MacOS.app */,
+				9E150A02262D61900037FC82 /* DemoGameTappy00MacOSTests.xctest */,
+				9E150A0D262D61900037FC82 /* DemoGameTappy00MacOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E1509F2262D61900037FC82 /* DemoGameTappy00MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				9E150A35262D64300037FC82 /* GameView */,
+				9E1509F3262D61900037FC82 /* DemoGameTappy00MacOSApp.swift */,
+				9E1509F5262D61900037FC82 /* ContentView.swift */,
+				9E1509F7262D61900037FC82 /* Assets.xcassets */,
+				9E1509FC262D61900037FC82 /* Info.plist */,
+				9E1509FD262D61900037FC82 /* DemoGameTappy00MacOS.entitlements */,
+				9E1509F9262D61900037FC82 /* Preview Content */,
+			);
+			path = DemoGameTappy00MacOS;
+			sourceTree = "<group>";
+		};
+		9E1509F9262D61900037FC82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E1509FA262D61900037FC82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E150A05262D61900037FC82 /* DemoGameTappy00MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E150A06262D61900037FC82 /* DemoGameTappy00MacOSTests.swift */,
+				9E150A08262D61900037FC82 /* Info.plist */,
+			);
+			path = DemoGameTappy00MacOSTests;
+			sourceTree = "<group>";
+		};
+		9E150A10262D61900037FC82 /* DemoGameTappy00MacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E150A11262D61900037FC82 /* DemoGameTappy00MacOSUITests.swift */,
+				9E150A13262D61900037FC82 /* Info.plist */,
+			);
+			path = DemoGameTappy00MacOSUITests;
+			sourceTree = "<group>";
+		};
+		9E150A26262D61EF0037FC82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E1509EF262D61900037FC82 /* DemoGameTappy00MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E150A16262D61900037FC82 /* Build configuration list for PBXNativeTarget "DemoGameTappy00MacOS" */;
+			buildPhases = (
+				9E1509EC262D61900037FC82 /* Sources */,
+				9E1509ED262D61900037FC82 /* Frameworks */,
+				9E1509EE262D61900037FC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoGameTappy00MacOS;
+			packageProductDependencies = (
+				9E150A39262D643C0037FC82 /* GameView */,
+			);
+			productName = DemoGameTappy00MacOS;
+			productReference = 9E1509F0262D61900037FC82 /* DemoGameTappy00MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E150A01262D61900037FC82 /* DemoGameTappy00MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E150A19262D61900037FC82 /* Build configuration list for PBXNativeTarget "DemoGameTappy00MacOSTests" */;
+			buildPhases = (
+				9E1509FE262D61900037FC82 /* Sources */,
+				9E1509FF262D61900037FC82 /* Frameworks */,
+				9E150A00262D61900037FC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E150A04262D61900037FC82 /* PBXTargetDependency */,
+			);
+			name = DemoGameTappy00MacOSTests;
+			productName = DemoGameTappy00MacOSTests;
+			productReference = 9E150A02262D61900037FC82 /* DemoGameTappy00MacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E150A0C262D61900037FC82 /* DemoGameTappy00MacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E150A1C262D61900037FC82 /* Build configuration list for PBXNativeTarget "DemoGameTappy00MacOSUITests" */;
+			buildPhases = (
+				9E150A09262D61900037FC82 /* Sources */,
+				9E150A0A262D61900037FC82 /* Frameworks */,
+				9E150A0B262D61900037FC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E150A0F262D61900037FC82 /* PBXTargetDependency */,
+			);
+			name = DemoGameTappy00MacOSUITests;
+			productName = DemoGameTappy00MacOSUITests;
+			productReference = 9E150A0D262D61900037FC82 /* DemoGameTappy00MacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E1509E8262D61900037FC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9E1509EF262D61900037FC82 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9E150A01262D61900037FC82 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9E1509EF262D61900037FC82;
+					};
+					9E150A0C262D61900037FC82 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9E1509EF262D61900037FC82;
+					};
+				};
+			};
+			buildConfigurationList = 9E1509EB262D61900037FC82 /* Build configuration list for PBXProject "DemoGameTappy00MacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E1509E7262D61900037FC82;
+			productRefGroup = 9E1509F1262D61900037FC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E1509EF262D61900037FC82 /* DemoGameTappy00MacOS */,
+				9E150A01262D61900037FC82 /* DemoGameTappy00MacOSTests */,
+				9E150A0C262D61900037FC82 /* DemoGameTappy00MacOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E1509EE262D61900037FC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1509FB262D61900037FC82 /* Preview Assets.xcassets in Resources */,
+				9E1509F8262D61900037FC82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E150A00262D61900037FC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E150A0B262D61900037FC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E1509EC262D61900037FC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1509F6262D61900037FC82 /* ContentView.swift in Sources */,
+				9E1509F4262D61900037FC82 /* DemoGameTappy00MacOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1509FE262D61900037FC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E150A07262D61900037FC82 /* DemoGameTappy00MacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E150A09262D61900037FC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E150A12262D61900037FC82 /* DemoGameTappy00MacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E150A04262D61900037FC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1509EF262D61900037FC82 /* DemoGameTappy00MacOS */;
+			targetProxy = 9E150A03262D61900037FC82 /* PBXContainerItemProxy */;
+		};
+		9E150A0F262D61900037FC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1509EF262D61900037FC82 /* DemoGameTappy00MacOS */;
+			targetProxy = 9E150A0E262D61900037FC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E150A14262D61900037FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E150A15262D61900037FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9E150A17262D61900037FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoGameTappy00MacOS/DemoGameTappy00MacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = DemoGameTappy00MacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.DemoGameTappy00MacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9E150A18262D61900037FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoGameTappy00MacOS/DemoGameTappy00MacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DemoGameTappy00MacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.DemoGameTappy00MacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9E150A1A262D61900037FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QG598U658S;
+				INFOPLIST_FILE = DemoGameTappy00MacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.DemoGameTappy00MacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGameTappy00MacOS.app/Contents/MacOS/DemoGameTappy00MacOS";
+			};
+			name = Debug;
+		};
+		9E150A1B262D61900037FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QG598U658S;
+				INFOPLIST_FILE = DemoGameTappy00MacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.DemoGameTappy00MacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGameTappy00MacOS.app/Contents/MacOS/DemoGameTappy00MacOS";
+			};
+			name = Release;
+		};
+		9E150A1D262D61900037FC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QG598U658S;
+				INFOPLIST_FILE = DemoGameTappy00MacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.DemoGameTappy00MacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DemoGameTappy00MacOS;
+			};
+			name = Debug;
+		};
+		9E150A1E262D61900037FC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QG598U658S;
+				INFOPLIST_FILE = DemoGameTappy00MacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.DemoGameTappy00MacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DemoGameTappy00MacOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E1509EB262D61900037FC82 /* Build configuration list for PBXProject "DemoGameTappy00MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E150A14262D61900037FC82 /* Debug */,
+				9E150A15262D61900037FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E150A16262D61900037FC82 /* Build configuration list for PBXNativeTarget "DemoGameTappy00MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E150A17262D61900037FC82 /* Debug */,
+				9E150A18262D61900037FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E150A19262D61900037FC82 /* Build configuration list for PBXNativeTarget "DemoGameTappy00MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E150A1A262D61900037FC82 /* Debug */,
+				9E150A1B262D61900037FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E150A1C262D61900037FC82 /* Build configuration list for PBXNativeTarget "DemoGameTappy00MacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E150A1D262D61900037FC82 /* Debug */,
+				9E150A1E262D61900037FC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E150A39262D643C0037FC82 /* GameView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9E1509E8262D61900037FC82 /* Project object */;
+}

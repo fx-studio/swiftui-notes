@@ -66,7 +66,8 @@ Cấu hình đề xuất:
 1. [Swift Package](./011-AppleEcosystem/011_1_SwiftPackage.md)
 2. [WatchOS App](./011-AppleEcosystem/011_2_WatchOSApp.md)
 3. [Mac Catalyst App](./011-AppleEcosystem/011_3_MacCatalystApp.md)
-4. ...
+4. [MacOS App](./011-AppleEcosystem/011_4_MacOSApp.md)
+5. ...
 
 ---
 
