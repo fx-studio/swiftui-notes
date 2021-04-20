@@ -38,13 +38,12 @@ public struct GameView: View {
     
     public var body: some View {
         ZStack {
-            Button(action: {
-                handleTap()
-            }, label: {
-                Rectangle()
-                    .fill(backgroundColor)
-                    .frame(width: .infinity, height: .infinity)
-            })
+            Rectangle()
+                .fill(backgroundColor)
+                .frame(width: width, height: width)
+                .onTapGesture {
+                    handleTap()
+                }
             makeStatusView()
         }
         // Timer handel
@@ -94,9 +93,9 @@ public struct GameView: View {
                 .font(.system(size: 70))
                 .multilineTextAlignment(.center)
                 .foregroundColor(mainColor)
-//                .onTapGesture {
-//                    handleTap()
-//                }
+                .onTapGesture {
+                    handleTap()
+                }
             
         case .gameover, .winner:
             ZStack {

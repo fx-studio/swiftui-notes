@@ -23,7 +23,7 @@ Tuy nhiên, tất cả demo và trình bày lý thuyết chỉ là trên một n
 2. [WatchOS App](./011_2_WatchOSApp.md)
 3. [Extend Mac Catalyst App](./011_3_MacCatalystApp.md)
 4. [MacOS App](./011_4_MacOSApp.md)
-5. tvOS App
+5. [tvOS App](./011_5_tvOSApp.md)
 6. Multi-platform App
 
 ---

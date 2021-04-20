@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2001DD26281D4F001A3A98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5736261ACF4F0099450D /* ContentView.swift */; };
+		9E2001DE26281D4F001A3A98 /* DemoGameTappy00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */; };
+		9E2001E026281D4F001A3A98 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 9E2001DB26281D4F001A3A98 /* Game */; };
+		9E2001E226281D4F001A3A98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA573B261ACF500099450D /* Preview Assets.xcassets */; };
+		9E2001E326281D4F001A3A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA5738261ACF500099450D /* Assets.xcassets */; };
+		9E2002182628288D001A3A98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5736261ACF4F0099450D /* ContentView.swift */; };
+		9E721F7626292D67009C92E4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E721F7526292D67009C92E4 /* Settings.bundle */; };
+		9E721F93262943F0009C92E4 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E721F92262943F0009C92E4 /* AboutView.swift */; };
+		9E721F94262943F0009C92E4 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E721F92262943F0009C92E4 /* AboutView.swift */; };
+		9E86424E261C096D00AA4DAA /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 9E86424D261C096D00AA4DAA /* Game */; };
+		9E864260261C0C6600AA4DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E86425F261C0C6600AA4DAA /* Assets.xcassets */; };
+		9E864267261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E86426C261C0C6600AA4DAA /* DemoGameTappy00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E86426B261C0C6600AA4DAA /* DemoGameTappy00App.swift */; };
+		9E86426E261C0C6600AA4DAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E86426D261C0C6600AA4DAA /* ContentView.swift */; };
+		9E864270261C0C6600AA4DAA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E86426F261C0C6600AA4DAA /* NotificationController.swift */; };
+		9E864272261C0C6600AA4DAA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E864271261C0C6600AA4DAA /* NotificationView.swift */; };
+		9E864274261C0C6600AA4DAA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E864273261C0C6600AA4DAA /* ComplicationController.swift */; };
+		9E864276261C0C6600AA4DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E864275261C0C6600AA4DAA /* Assets.xcassets */; };
+		9E864279261C0C6600AA4DAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E864278261C0C6600AA4DAA /* Preview Assets.xcassets */; };
+		9E86427E261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E86428B261C0C7A00AA4DAA /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 9E86428A261C0C7A00AA4DAA /* Game */; };
+		9EBA5735261ACF4F0099450D /* DemoGameTappy00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */; };
+		9EBA5739261ACF500099450D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA5738261ACF500099450D /* Assets.xcassets */; };
+		9EBA573C261ACF500099450D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA573B261ACF500099450D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E864268261C0C6600AA4DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EBA5729261ACF4F0099450D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E864265261C0C6600AA4DAA;
+			remoteInfo = "DemoGameTappy00_WatchKIt Extension";
+		};
+		9E86427C261C0C6600AA4DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EBA5729261ACF4F0099450D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E86425C261C0C6500AA4DAA;
+			remoteInfo = DemoGameTappy00_WatchKIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E2001E426281D4F001A3A98 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864282261C0C6600AA4DAA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E864267261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864286261C0C6600AA4DAA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9E86427E261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E2001E926281D4F001A3A98 /* DemoGameTappy00_Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGameTappy00_Plus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2001EA26281D4F001A3A98 /* DemoGameTappy00 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DemoGameTappy00 copy-Info.plist"; path = "/Users/lephuongtien/Coding/FXStudio/SwiftUI_Notes/011-AppleEcosystem/DemoGameTappy00/DemoGameTappy00 copy-Info.plist"; sourceTree = "<absolute>"; };
+		9E2001EF26281DC8001A3A98 /* DemoGameTappy00_Plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoGameTappy00_Plus.entitlements; sourceTree = "<group>"; };
+		9E721F7526292D67009C92E4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		9E721F92262943F0009C92E4 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9E864245261C08A500AA4DAA /* Game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Game; path = ../../packages/Game; sourceTree = "<group>"; };
+		9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGameTappy00_WatchKIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E86425F261C0C6600AA4DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E864261261C0C6600AA4DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DemoGameTappy00_WatchKIt Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E86426B261C0C6600AA4DAA /* DemoGameTappy00App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00App.swift; sourceTree = "<group>"; };
+		9E86426D261C0C6600AA4DAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E86426F261C0C6600AA4DAA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9E864271261C0C6600AA4DAA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9E864273261C0C6600AA4DAA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		9E864275261C0C6600AA4DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E864278261C0C6600AA4DAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E86427A261C0C6600AA4DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E86427B261C0C6600AA4DAA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9EBA5731261ACF4F0099450D /* DemoGameTappy00.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGameTappy00.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGameTappy00App.swift; sourceTree = "<group>"; };
+		9EBA5736261ACF4F0099450D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EBA5738261ACF500099450D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EBA573B261ACF500099450D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EBA573D261ACF500099450D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2001DF26281D4F001A3A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2001E026281D4F001A3A98 /* Game in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864263261C0C6600AA4DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E86428B261C0C7A00AA4DAA /* Game in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBA572E261ACF4F0099450D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E86424E261C096D00AA4DAA /* Game in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E86424C261C096D00AA4DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E86425E261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */ = {
+			isa = PBXGroup;
+			children = (
+				9E86425F261C0C6600AA4DAA /* Assets.xcassets */,
+				9E864261261C0C6600AA4DAA /* Info.plist */,
+			);
+			path = DemoGameTappy00_WatchKIt;
+			sourceTree = "<group>";
+		};
+		9E86426A261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E86426B261C0C6600AA4DAA /* DemoGameTappy00App.swift */,
+				9E86426D261C0C6600AA4DAA /* ContentView.swift */,
+				9E86426F261C0C6600AA4DAA /* NotificationController.swift */,
+				9E864271261C0C6600AA4DAA /* NotificationView.swift */,
+				9E864273261C0C6600AA4DAA /* ComplicationController.swift */,
+				9E864275261C0C6600AA4DAA /* Assets.xcassets */,
+				9E86427A261C0C6600AA4DAA /* Info.plist */,
+				9E86427B261C0C6600AA4DAA /* PushNotificationPayload.apns */,
+				9E864277261C0C6600AA4DAA /* Preview Content */,
+			);
+			path = "DemoGameTappy00_WatchKIt Extension";
+			sourceTree = "<group>";
+		};
+		9E864277261C0C6600AA4DAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E864278261C0C6600AA4DAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EBA5728261ACF4F0099450D = {
+			isa = PBXGroup;
+			children = (
+				9E2001EF26281DC8001A3A98 /* DemoGameTappy00_Plus.entitlements */,
+				9EBA5733261ACF4F0099450D /* DemoGameTappy00 */,
+				9E86425E261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */,
+				9E86426A261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */,
+				9EBA5732261ACF4F0099450D /* Products */,
+				9E86424C261C096D00AA4DAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBA5732261ACF4F0099450D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EBA5731261ACF4F0099450D /* DemoGameTappy00.app */,
+				9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */,
+				9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */,
+				9E2001E926281D4F001A3A98 /* DemoGameTappy00_Plus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EBA5733261ACF4F0099450D /* DemoGameTappy00 */ = {
+			isa = PBXGroup;
+			children = (
+				9E864245261C08A500AA4DAA /* Game */,
+				9EBA5763261ACF7F0099450D /* App */,
+				9EBA5764261ACF8A0099450D /* Views */,
+				9EBA5738261ACF500099450D /* Assets.xcassets */,
+				9EBA573D261ACF500099450D /* Info.plist */,
+				9E2001EA26281D4F001A3A98 /* DemoGameTappy00 copy-Info.plist */,
+				9EBA573A261ACF500099450D /* Preview Content */,
+				9E721F7526292D67009C92E4 /* Settings.bundle */,
+			);
+			path = DemoGameTappy00;
+			sourceTree = "<group>";
+		};
+		9EBA573A261ACF500099450D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EBA573B261ACF500099450D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EBA5763261ACF7F0099450D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9EBA5734261ACF4F0099450D /* DemoGameTappy00App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9EBA5764261ACF8A0099450D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EBA5736261ACF4F0099450D /* ContentView.swift */,
+				9E721F92262943F0009C92E4 /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2001D826281D4F001A3A98 /* DemoGameTappy00_Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2001E626281D4F001A3A98 /* Build configuration list for PBXNativeTarget "DemoGameTappy00_Plus" */;
+			buildPhases = (
+				9E2001DC26281D4F001A3A98 /* Sources */,
+				9E2001DF26281D4F001A3A98 /* Frameworks */,
+				9E2001E126281D4F001A3A98 /* Resources */,
+				9E2001E426281D4F001A3A98 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoGameTappy00_Plus;
+			packageProductDependencies = (
+				9E2001DB26281D4F001A3A98 /* Game */,
+			);
+			productName = DemoGameTappy00;
+			productReference = 9E2001E926281D4F001A3A98 /* DemoGameTappy00_Plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E86425C261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E864283261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt" */;
+			buildPhases = (
+				9E86425B261C0C6500AA4DAA /* Resources */,
+				9E864282261C0C6600AA4DAA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E864269261C0C6600AA4DAA /* PBXTargetDependency */,
+			);
+			name = DemoGameTappy00_WatchKIt;
+			productName = DemoGameTappy00_WatchKIt;
+			productReference = 9E86425D261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9E864265261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E86427F261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt Extension" */;
+			buildPhases = (
+				9E864262261C0C6600AA4DAA /* Sources */,
+				9E864263261C0C6600AA4DAA /* Frameworks */,
+				9E864264261C0C6600AA4DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoGameTappy00_WatchKIt Extension";
+			packageProductDependencies = (
+				9E86428A261C0C7A00AA4DAA /* Game */,
+			);
+			productName = "DemoGameTappy00_WatchKIt Extension";
+			productReference = 9E864266261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		9EBA5730261ACF4F0099450D /* DemoGameTappy00 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBA5756261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00" */;
+			buildPhases = (
+				9EBA572D261ACF4F0099450D /* Sources */,
+				9EBA572E261ACF4F0099450D /* Frameworks */,
+				9EBA572F261ACF4F0099450D /* Resources */,
+				9E864286261C0C6600AA4DAA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E86427D261C0C6600AA4DAA /* PBXTargetDependency */,
+			);
+			name = DemoGameTappy00;
+			packageProductDependencies = (
+				9E86424D261C096D00AA4DAA /* Game */,
+			);
+			productName = DemoGameTappy00;
+			productReference = 9EBA5731261ACF4F0099450D /* DemoGameTappy00.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EBA5729261ACF4F0099450D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9E86425C261C0C6500AA4DAA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9E864265261C0C6600AA4DAA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9EBA5730261ACF4F0099450D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9EBA572C261ACF4F0099450D /* Build configuration list for PBXProject "DemoGameTappy00" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EBA5728261ACF4F0099450D;
+			productRefGroup = 9EBA5732261ACF4F0099450D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EBA5730261ACF4F0099450D /* DemoGameTappy00 */,
+				9E86425C261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */,
+				9E864265261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */,
+				9E2001D826281D4F001A3A98 /* DemoGameTappy00_Plus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2001E126281D4F001A3A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2001E226281D4F001A3A98 /* Preview Assets.xcassets in Resources */,
+				9E721F7626292D67009C92E4 /* Settings.bundle in Resources */,
+				9E2001E326281D4F001A3A98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E86425B261C0C6500AA4DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E864260261C0C6600AA4DAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864264261C0C6600AA4DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E864279261C0C6600AA4DAA /* Preview Assets.xcassets in Resources */,
+				9E864276261C0C6600AA4DAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBA572F261ACF4F0099450D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBA573C261ACF500099450D /* Preview Assets.xcassets in Resources */,
+				9EBA5739261ACF500099450D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2001DC26281D4F001A3A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2001DD26281D4F001A3A98 /* ContentView.swift in Sources */,
+				9E721F94262943F0009C92E4 /* AboutView.swift in Sources */,
+				9E2001DE26281D4F001A3A98 /* DemoGameTappy00App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E864262261C0C6600AA4DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E864270261C0C6600AA4DAA /* NotificationController.swift in Sources */,
+				9E86426E261C0C6600AA4DAA /* ContentView.swift in Sources */,
+				9E864274261C0C6600AA4DAA /* ComplicationController.swift in Sources */,
+				9E86426C261C0C6600AA4DAA /* DemoGameTappy00App.swift in Sources */,
+				9E864272261C0C6600AA4DAA /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBA572D261ACF4F0099450D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2002182628288D001A3A98 /* ContentView.swift in Sources */,
+				9E721F93262943F0009C92E4 /* AboutView.swift in Sources */,
+				9EBA5735261ACF4F0099450D /* DemoGameTappy00App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E864269261C0C6600AA4DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E864265261C0C6600AA4DAA /* DemoGameTappy00_WatchKIt Extension */;
+			targetProxy = 9E864268261C0C6600AA4DAA /* PBXContainerItemProxy */;
+		};
+		9E86427D261C0C6600AA4DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E86425C261C0C6500AA4DAA /* DemoGameTappy00_WatchKIt */;
+			targetProxy = 9E86427C261C0C6600AA4DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E2001E726281D4F001A3A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoGameTappy00_Plus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DemoGameTappy00 copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.demotappy00-plus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2001E826281D4F001A3A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoGameTappy00_Plus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DemoGameTappy00 copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.demotappy00-plus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E864280261C0C6600AA4DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00_WatchKIt Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DemoGameTappy00_WatchKIt Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		9E864281261C0C6600AA4DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00_WatchKIt Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DemoGameTappy00_WatchKIt Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		9E864284261C0C6600AA4DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG598U658S;
+				IBSC_MODULE = DemoGameTappy00_WatchKIt_Extension;
+				INFOPLIST_FILE = DemoGameTappy00_WatchKIt/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		9E864285261C0C6600AA4DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG598U658S;
+				IBSC_MODULE = DemoGameTappy00_WatchKIt_Extension;
+				INFOPLIST_FILE = DemoGameTappy00_WatchKIt/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		9EBA5754261ACF500099450D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EBA5755261ACF500099450D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EBA5757261ACF500099450D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DemoGameTappy00/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EBA5758261ACF500099450D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DemoGameTappy00/Preview Content\"";
+				DEVELOPMENT_TEAM = QG598U658S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DemoGameTappy00/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fx.demotappy00;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2001E626281D4F001A3A98 /* Build configuration list for PBXNativeTarget "DemoGameTappy00_Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2001E726281D4F001A3A98 /* Debug */,
+				9E2001E826281D4F001A3A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E86427F261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E864280261C0C6600AA4DAA /* Debug */,
+				9E864281261C0C6600AA4DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E864283261C0C6600AA4DAA /* Build configuration list for PBXNativeTarget "DemoGameTappy00_WatchKIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E864284261C0C6600AA4DAA /* Debug */,
+				9E864285261C0C6600AA4DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBA572C261ACF4F0099450D /* Build configuration list for PBXProject "DemoGameTappy00" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBA5754261ACF500099450D /* Debug */,
+				9EBA5755261ACF500099450D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBA5756261ACF500099450D /* Build configuration list for PBXNativeTarget "DemoGameTappy00" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBA5757261ACF500099450D /* Debug */,
+				9EBA5758261ACF500099450D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E2001DB26281D4F001A3A98 /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+		9E86424D261C096D00AA4DAA /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+		9E86428A261C0C7A00AA4DAA /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9EBA5729261ACF4F0099450D /* Project object */;
+}
