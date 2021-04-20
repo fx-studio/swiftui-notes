@@ -68,7 +68,12 @@ Cấu hình đề xuất:
 3. [Mac Catalyst App](./011-AppleEcosystem/011_3_MacCatalystApp.md)
 4. [MacOS App](./011-AppleEcosystem/011_4_MacOSApp.md)
 5. [tvOS App](./011-AppleEcosystem/011_5_tvOSApp.md)
-6. ...
+
+### [Part V : Multiplatform App](./012-MultiplatformApp)
+
+1. Basic Multiplatform App
+2. Design & Make color
+3. Extra functions
 
 ---
 
