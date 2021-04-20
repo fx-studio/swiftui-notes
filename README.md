@@ -35,7 +35,7 @@ Cấu hình đề xuất:
 
 ## Danh sách tìm hiểu:
 
-### Part I : Getting started
+### [Part I : Getting started](https://fxstudio.dev/swiftui-phan-1-lam-quen-voi-swiftui/)
 
 1. [Hello world](./001-Helloworld)
 2. [Creating your UI](./002-CreatingUI)
@@ -43,7 +43,7 @@ Cấu hình đề xuất:
 4. [Presenting an Alert](./004-PresentingAlert)
 5. [Extracting Subviews](./005-ExtractingSubviews)
 
-### Part II : SwiftUI App 
+### [Part II : SwiftUI App](https://fxstudio.dev/swiftui-phan-2-co-ban-ve-ung-dung-swiftui-app/) 
 
 1. [SwiftUI App Life Cycle](./006-LifeCycleApp)
 2. [Declaring views](./007-DeclaringViews)
