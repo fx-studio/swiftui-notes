@@ -72,7 +72,7 @@ Cấu hình đề xuất:
 ### [Part V : Multiplatform App](./012-MultiplatformApp)
 
 1. [Basic Multiplatform App](./012-MultiplatformApp/01_BasicMultiplatformApp.md)
-2. Design & Make color
+2. [Design & Make color](./012-MultiplatformApp/02_DesignViews.md)
 3. Extra functions
 
 ---

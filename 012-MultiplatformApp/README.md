@@ -25,7 +25,7 @@ Và Apple cũng không phụ lòng dev, với sự ra mắt Xcode 12 thì chúng
 ### Danh sách
 
 1. [Basic Multiplatform App](./01_BasicMultiplatformApp.md)
-2. Design & Make color
+2. [Design & Make color](./02_DesignViews.md)
 3. Extra functions
 
 ### Lưu ý
