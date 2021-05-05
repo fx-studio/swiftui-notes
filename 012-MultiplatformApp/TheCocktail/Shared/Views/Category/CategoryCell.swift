@@ -1,14 +1,13 @@
 //
-//  CategoryItemView.swift
-//  TheCocktail (iOS)
+//  CategoryCell.swift
+//  TheCocktail
 //
-//  Created by lephuongtien on 4/23/21.
+//  Created by lephuongtien on 4/27/21.
 //
 
 import SwiftUI
 
-struct CategoryItemView: View {
-    
+struct CategoryCell: View {
     var item: Category
     var color = Color.black.opacity(0.5)
     @State var isActive = false
@@ -33,7 +32,7 @@ struct CategoryItemView: View {
         .clipShape(RoundedRectangle(cornerRadius: 10.0))
         .background(
             NavigationLink(
-                destination: CategoryDetailView(categoryName: item.name),
+                destination: CategoryDetailView(name: item.name),
                 isActive: $isActive,
                 label: {
                     EmptyView()
@@ -45,9 +44,9 @@ struct CategoryItemView: View {
     }
 }
 
-struct CategoryItemView_Previews: PreviewProvider {
+struct CategoryCell_Previews: PreviewProvider {
     static var item = Category(name: "ABC", thumbnail: "img1")
     static var previews: some View {
-        CategoryItemView(item: item)
+        CategoryCell(item: item)
     }
 }

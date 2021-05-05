@@ -1,32 +1,30 @@
 //
 //  Sidebar.swift
-//  TheCocktail
+//  TheCocktail (macOS)
 //
-//  Created by lephuongtien on 4/23/21.
+//  Created by lephuongtien on 4/27/21.
 //
 
 import SwiftUI
 
 struct Sidebar: View {
     
-    var cocktail = CategoryView()
-    var glass = CategoryView()
-    var alcoholic = CategoryView()
+    @AppStorage("isColorMode") var isColorMode: Bool = false
     
     var sideBar: some View {
         List {
             NavigationLink(
-                destination: cocktail,
+                destination: ListCategoriesView(title: "Cocktail"),
                 label: {
                     Label("Cocktail", systemImage: "heart.fill")
                 })
             NavigationLink(
-                destination: glass,
+                destination: ListCategoriesView(title: "Glass"),
                 label: {
                     Label("Glass", systemImage: "staroflife.circle")
                 })
             NavigationLink(
-                destination: alcoholic,
+                destination: ListCategoriesView(title: "Alcoholic"),
                 label: {
                     Label("Alcoholic", systemImage: "atom")
                 })
@@ -47,8 +45,10 @@ struct Sidebar: View {
         NavigationView {
             sideBar
             Text("Welcome to The Cocktail!")
-                .foregroundColor(Color.white)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .navigationTitle("Welcome")
+                .colorScheme(isColorMode ? .dark : .light)
+                .background(isColorMode ? Color.gray : Color.white)
         }
     }
     
@@ -56,12 +56,10 @@ struct Sidebar: View {
       NSApp.keyWindow?.firstResponder?.tryToPerform(
         #selector(NSSplitViewController.toggleSidebar), with: nil)
     }
-
 }
 
 struct Sidebar_Previews: PreviewProvider {
     static var previews: some View {
         Sidebar()
-        
     }
 }

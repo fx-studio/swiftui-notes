@@ -2,7 +2,7 @@
 //  Tabbar.swift
 //  TheCocktail
 //
-//  Created by lephuongtien on 4/23/21.
+//  Created by lephuongtien on 4/27/21.
 //
 
 import SwiftUI
@@ -12,17 +12,17 @@ struct Tabbar: View {
         // TABBAR
         TabView {
             // #1
-            CategoryView()
+            ListCategoriesView(title: "Cocktail")
             .tabItem {
                 Label("Cocktail", systemImage: "heart.fill")
             }
             // #2
-            CategoryView()
+            ListCategoriesView(title: "Glass")
             .tabItem {
                 Label("Glass", systemImage: "staroflife.circle")
             }
             // #3
-            CategoryView()
+            ListCategoriesView(title: "Alcoholic")
             .tabItem {
                 Label("Alcoholic", systemImage: "atom")
             }
