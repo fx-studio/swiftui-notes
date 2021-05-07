@@ -75,7 +75,14 @@ Cấu hình đề xuất:
 2. [Design & Make color](./012-MultiplatformApp/02_DesignViews.md)
 3. [Extra functions](./012-MultiplatformApp/03_ExtraFunctions.md)
 
+### [Part VI : Building Block UI](./013-BuildingBlockUI)
+
+1. [Text](./013-BuildingBlockUI/01_Text.md)
+2. Image
+3. ....
+
 ---
 
 > *Về bản quyền của Repo và mã nguồn trong repo là hoàn toàn miễn phí  cho các mục đích phi lợi nhuận và học tập. Tất cả các hành vi sao chép  hay sử dụng vì mục đích thương mại thì đều là vi phạm.*
 
+Cảm ơn bạn đã theo dõi các bài viết từ **Fx Studio** & hãy truy cập [website](https://fxstudio.dev/) để cập nhật nhiều hơn!
