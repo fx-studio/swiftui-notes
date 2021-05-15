@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EAB137E264E7147001DDE55 /* ImageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB137D264E7147001DDE55 /* ImageDemoView.swift */; };
 		9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A572264532DB00D8C858 /* BuildingBlockDemoApp.swift */; };
 		9EE5A575264532DB00D8C858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A574264532DB00D8C858 /* ContentView.swift */; };
 		9EE5A577264532DC00D8C858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5A576264532DC00D8C858 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EAB137D264E7147001DDE55 /* ImageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemoView.swift; sourceTree = "<group>"; };
 		9EE5A56F264532DB00D8C858 /* BuildingBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildingBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5A572264532DB00D8C858 /* BuildingBlockDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingBlockDemoApp.swift; sourceTree = "<group>"; };
 		9EE5A574264532DB00D8C858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EAB137C264E7135001DDE55 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB137D264E7147001DDE55 /* ImageDemoView.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		9EE5A566264532DB00D8C858 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		9EE5A571264532DB00D8C858 /* BuildingBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9EAB137C264E7135001DDE55 /* Image */,
 				9EE5A5822645330200D8C858 /* Text */,
 				9EE5A581264532F600D8C858 /* App */,
 				9EE5A576264532DC00D8C858 /* Assets.xcassets */,
@@ -158,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE5A575264532DB00D8C858 /* ContentView.swift in Sources */,
+				9EAB137E264E7147001DDE55 /* ImageDemoView.swift in Sources */,
 				9EE5A5842645331700D8C858 /* TextDemoView.swift in Sources */,
 				9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */,
 			);

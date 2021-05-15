@@ -28,7 +28,8 @@ Trong phần này, chúng ta sẽ không đi vào việc giải thích các vấ
 ## Danh sách
 
 1. [Text](./01_Text.md)
-2. ...
+2. [Image](./02_Image.md)
+3. ...
 
 ## Lưu ý
 

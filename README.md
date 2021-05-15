@@ -78,7 +78,7 @@ Cấu hình đề xuất:
 ### [Part VI : Building Block UI](./013-BuildingBlockUI)
 
 1. [Text](./013-BuildingBlockUI/01_Text.md)
-2. Image
+2. [Image](./013-BuildingBlockUI/02_Image.md)
 3. ....
 
 ---
