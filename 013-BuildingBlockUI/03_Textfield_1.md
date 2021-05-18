@@ -345,6 +345,12 @@ Bạn có thể tham khảo để có demo riêng của bạn. Còn bây giờ t
 
 ![img_193](../_img/193.png)
 
+### 5.4 Lưu ý
+
+* Bạn bấm Return Key thì mới áp dụng formartter
+* Nếu như dữ liệu nhập vào sai (sai ngày tháng) thì giá trị của thuộc tính/biến & TextField sẽ không thay đổi. Và giữ nguyên giá trị trước lúc nhập.
+* Nếu như bạn nhập sai format thì cũng như trên. TextField sẽ lấy giá trị từ thuộc tính/biến để hiển thị.
+
 ## 6. Styling
 
 Nếu để ý bạn thấy TextField chúng ta qua xấu. Tuy nhiên, là do nó chưa được thêm `style`. SwiftUI cũng hỗ trợ bạn một modifier để thêm style cho TextField, đó là `.textFieldStyle`
