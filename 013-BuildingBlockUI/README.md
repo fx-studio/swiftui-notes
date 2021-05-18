@@ -29,7 +29,8 @@ Trong phần này, chúng ta sẽ không đi vào việc giải thích các vấ
 
 1. [Text](./01_Text.md)
 2. [Image](./02_Image.md)
-3. ...
+3. TextField [(part 1)](./03_Textfield_1.md) & [(part 2)](./03_Textfield_2.md)
+4. ...
 
 ## Lưu ý
 

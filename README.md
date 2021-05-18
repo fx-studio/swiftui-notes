@@ -79,7 +79,8 @@ Cấu hình đề xuất:
 
 1. [Text](./013-BuildingBlockUI/01_Text.md)
 2. [Image](./013-BuildingBlockUI/02_Image.md)
-3. ....
+3. TextField [(part 1)](./013-BuildingBlockUI/03_Textfield_1.md) & [(part 2)](./013-BuildingBlockUI/03_Textfield_2.md)
+4. ...
 
 ---
 
