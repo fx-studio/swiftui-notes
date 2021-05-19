@@ -1,4 +1,4 @@
-# 013 - Building Block UI
+# 013 - Basic UI Controls
 
 Chào bạn đến với **Fx Studio** và series **SwiftUI Notes**. Nếu bạn là người theo dõi từ đầu series này thì tới được đây cũng phải rất gian nan. Bạn đã tìm hiểu được vô số kiến thức mới thú vị về SwiftUI và những đặc trưng của nó. Tuy nhiên, tất cả mới là những điểm lý thuyết và tổng quát cách vận hành của một SwiftUI App. Qua chương mới này, chúng ta tập trung vào những SwiftUI Views. Hi vọng đây là làn gió mới giúp bạn thêm yêu quý nhiều hơn SwiftUI.
 

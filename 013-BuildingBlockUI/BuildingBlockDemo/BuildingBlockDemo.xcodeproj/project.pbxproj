@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9E2731B026536AFA00347086 /* TextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2731AF26536AFA00347086 /* TextFieldDemoView.swift */; };
+		9E28DA542654B96C00C5F378 /* KuteTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DA532654B96C00C5F378 /* KuteTextFieldStyle.swift */; };
+		9E28DA562654BB5000C5F378 /* TextFieldDemo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DA552654BB5000C5F378 /* TextFieldDemo2View.swift */; };
+		9E28DA582654CB1800C5F378 /* KuteViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DA572654CB1800C5F378 /* KuteViewModifier.swift */; };
+		9E28DA5B2654FD0400C5F378 /* FXKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DA5A2654FD0400C5F378 /* FXKeyboardManager.swift */; };
 		9EAB137E264E7147001DDE55 /* ImageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB137D264E7147001DDE55 /* ImageDemoView.swift */; };
 		9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A572264532DB00D8C858 /* BuildingBlockDemoApp.swift */; };
 		9EE5A575264532DB00D8C858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A574264532DB00D8C858 /* ContentView.swift */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		9E2731AF26536AFA00347086 /* TextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoView.swift; sourceTree = "<group>"; };
+		9E28DA532654B96C00C5F378 /* KuteTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuteTextFieldStyle.swift; sourceTree = "<group>"; };
+		9E28DA552654BB5000C5F378 /* TextFieldDemo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo2View.swift; sourceTree = "<group>"; };
+		9E28DA572654CB1800C5F378 /* KuteViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuteViewModifier.swift; sourceTree = "<group>"; };
+		9E28DA5A2654FD0400C5F378 /* FXKeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXKeyboardManager.swift; sourceTree = "<group>"; };
 		9EAB137D264E7147001DDE55 /* ImageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemoView.swift; sourceTree = "<group>"; };
 		9EE5A56F264532DB00D8C858 /* BuildingBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildingBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5A572264532DB00D8C858 /* BuildingBlockDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingBlockDemoApp.swift; sourceTree = "<group>"; };
@@ -43,8 +51,19 @@
 			isa = PBXGroup;
 			children = (
 				9E2731AF26536AFA00347086 /* TextFieldDemoView.swift */,
+				9E28DA552654BB5000C5F378 /* TextFieldDemo2View.swift */,
+				9E28DA532654B96C00C5F378 /* KuteTextFieldStyle.swift */,
+				9E28DA572654CB1800C5F378 /* KuteViewModifier.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		9E28DA592654FCE700C5F378 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E28DA5A2654FD0400C5F378 /* FXKeyboardManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9EAB137C264E7135001DDE55 /* Image */ = {
@@ -78,6 +97,7 @@
 				9EAB137C264E7135001DDE55 /* Image */,
 				9EE5A5822645330200D8C858 /* Text */,
 				9EE5A581264532F600D8C858 /* App */,
+				9E28DA592654FCE700C5F378 /* Models */,
 				9EE5A576264532DC00D8C858 /* Assets.xcassets */,
 				9EE5A57B264532DC00D8C858 /* Info.plist */,
 				9EE5A578264532DC00D8C858 /* Preview Content */,
@@ -181,6 +201,10 @@
 			files = (
 				9E2731B026536AFA00347086 /* TextFieldDemoView.swift in Sources */,
 				9EE5A575264532DB00D8C858 /* ContentView.swift in Sources */,
+				9E28DA542654B96C00C5F378 /* KuteTextFieldStyle.swift in Sources */,
+				9E28DA562654BB5000C5F378 /* TextFieldDemo2View.swift in Sources */,
+				9E28DA582654CB1800C5F378 /* KuteViewModifier.swift in Sources */,
+				9E28DA5B2654FD0400C5F378 /* FXKeyboardManager.swift in Sources */,
 				9EAB137E264E7147001DDE55 /* ImageDemoView.swift in Sources */,
 				9EE5A5842645331700D8C858 /* TextDemoView.swift in Sources */,
 				9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */,

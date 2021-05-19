@@ -1,14 +1,13 @@
 //
-//  TextFieldDemoView.swift
+//  TextFieldDemo2View.swift
 //  BuildingBlockDemo
 //
-//  Created by lephuongtien on 5/18/21.
+//  Created by lephuongtien on 5/19/21.
 //
 
 import SwiftUI
 
-struct TextFieldDemoView: View {
-    
+struct TextFieldDemo2View: View {
     @State var name: String = ""
     @State var birthday: Date = Date()
     @State var age: Int = 0
@@ -25,6 +24,10 @@ struct TextFieldDemoView: View {
         return nf
     }
     
+    @StateObject var keyboardManager = FXKeyboardManager()
+    
+    init() {
+    }
     
     var body: some View {
         VStack {
@@ -32,34 +35,35 @@ struct TextFieldDemoView: View {
             VStack {
                 TextField("Username", text: $name) { isBegin in
                     if isBegin {
-                        print("Begins editing")
+                        keyboardManager.customHeight = 50.0
                     } else {
-                        print("Finishes editing")
+                        keyboardManager.customHeight = 0
                     }
-                } onCommit: {
-                    print("commit")
-                }
-                //.textFieldStyle(RoundedBorderTextFieldStyle())
-                .foregroundColor(Color.green)
-                .background(Color.yellow)
+                    
+                } onCommit: {}
+                .kute()
                 
-                Spacer()
                 Text(name == "" ? "Please, input your name" : "Hello, \(name)!")
-                Spacer()
+                    .padding()
                 Divider()
             }
             
             VStack {
-                TextField("Age",
-                          value: $age,
-                          formatter: TextFieldDemoView.numberFormater)
-                    //.textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding()
-                    .border(Color.red, width: 2)
+                HStack {
+                    Text("Age")
+                    TextField("Age", value: $age, formatter: TextFieldDemo2View.numberFormater) { isBegin in
+                        if isBegin {
+                            keyboardManager.customHeight = 100.0
+                        } else {
+                            keyboardManager.customHeight = 0
+                        }
+                        
+                    } onCommit: {}
+                    .kute()
+                }
                 
-                Spacer()
                 Text(age == 0 ? "Please, input your age" : "\(age)")
-                Spacer()
+                    .padding()
                 Divider()
             }
             
@@ -68,24 +72,19 @@ struct TextFieldDemoView: View {
                 HStack {
                     Text("Birthday")
                     TextField(
-                        "Birthday",
-                        value: $birthday,
-                        formatter: TextFieldDemoView.dateformater)
-                        //.textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding()
-                        .overlay(
-                          RoundedRectangle(cornerRadius: 8)
-                            .stroke(lineWidth: 2)
-                            .foregroundColor(.blue)
-                        )
-                        .shadow(color: Color.gray.opacity(1.0),
-                                radius: 3, x: 1, y: 2)
+                        "Birthday", value: $birthday, formatter: TextFieldDemo2View.dateformater) { isBegin in
+                        if isBegin {
+                            keyboardManager.customHeight = 200.0
+                        } else {
+                            keyboardManager.customHeight = 0
+                        }
+                        
+                    } onCommit: {}
+                    .kute()
                 }
                 
-                
-                Spacer()
                 Text(TextFieldDemoView.dateformater.string(from: birthday))
-                Spacer()
+                    .padding()
                 Divider()
             }
             
@@ -104,13 +103,14 @@ struct TextFieldDemoView: View {
                 
             }
         }
-        .frame(height: 300.0)
+        //.frame(height: 400.0)
+        .padding(.bottom, keyboardManager.keyboardHeight)
         .padding()
     }
 }
 
-struct TextFieldDemoView_Previews: PreviewProvider {
+struct TextFieldDemo2View_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldDemoView()
+        TextFieldDemo2View()
     }
 }

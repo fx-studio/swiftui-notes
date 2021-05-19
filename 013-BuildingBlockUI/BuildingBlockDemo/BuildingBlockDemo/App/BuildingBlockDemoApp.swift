@@ -12,7 +12,7 @@ struct BuildingBlockDemoApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            TextFieldDemoView()
+            TextFieldDemo2View()
         }
     }
 }
