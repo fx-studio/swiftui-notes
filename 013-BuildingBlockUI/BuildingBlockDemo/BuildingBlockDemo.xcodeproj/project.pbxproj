@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E03AEB22656054800F3F0DB /* DemoLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03AEB12656054800F3F0DB /* DemoLoginView.swift */; };
+		9E03AEB42656632000F3F0DB /* DemoLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03AEB32656632000F3F0DB /* DemoLoginViewModel.swift */; };
 		9E2731B026536AFA00347086 /* TextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2731AF26536AFA00347086 /* TextFieldDemoView.swift */; };
 		9E28DA542654B96C00C5F378 /* KuteTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DA532654B96C00C5F378 /* KuteTextFieldStyle.swift */; };
 		9E28DA562654BB5000C5F378 /* TextFieldDemo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DA552654BB5000C5F378 /* TextFieldDemo2View.swift */; };
@@ -18,9 +20,12 @@
 		9EE5A577264532DC00D8C858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5A576264532DC00D8C858 /* Assets.xcassets */; };
 		9EE5A57A264532DC00D8C858 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5A579264532DC00D8C858 /* Preview Assets.xcassets */; };
 		9EE5A5842645331700D8C858 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A5832645331700D8C858 /* TextDemoView.swift */; };
+		9EF8064026575DA700D19328 /* InputControlsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8063F26575DA700D19328 /* InputControlsDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E03AEB12656054800F3F0DB /* DemoLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLoginView.swift; sourceTree = "<group>"; };
+		9E03AEB32656632000F3F0DB /* DemoLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLoginViewModel.swift; sourceTree = "<group>"; };
 		9E2731AF26536AFA00347086 /* TextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoView.swift; sourceTree = "<group>"; };
 		9E28DA532654B96C00C5F378 /* KuteTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuteTextFieldStyle.swift; sourceTree = "<group>"; };
 		9E28DA552654BB5000C5F378 /* TextFieldDemo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo2View.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		9EE5A579264532DC00D8C858 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EE5A57B264532DC00D8C858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE5A5832645331700D8C858 /* TextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoView.swift; sourceTree = "<group>"; };
+		9EF8063F26575DA700D19328 /* InputControlsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputControlsDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E03AEB02656052700F3F0DB /* InputControls */ = {
+			isa = PBXGroup;
+			children = (
+				9E03AEB12656054800F3F0DB /* DemoLoginView.swift */,
+				9E03AEB32656632000F3F0DB /* DemoLoginViewModel.swift */,
+				9EF8063F26575DA700D19328 /* InputControlsDemoView.swift */,
+			);
+			path = InputControls;
+			sourceTree = "<group>";
+		};
 		9E2731AE26536AE200347086 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +109,7 @@
 		9EE5A571264532DB00D8C858 /* BuildingBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E03AEB02656052700F3F0DB /* InputControls */,
 				9E2731AE26536AE200347086 /* TextField */,
 				9EAB137C264E7135001DDE55 /* Image */,
 				9EE5A5822645330200D8C858 /* Text */,
@@ -204,9 +221,12 @@
 				9E28DA542654B96C00C5F378 /* KuteTextFieldStyle.swift in Sources */,
 				9E28DA562654BB5000C5F378 /* TextFieldDemo2View.swift in Sources */,
 				9E28DA582654CB1800C5F378 /* KuteViewModifier.swift in Sources */,
+				9E03AEB22656054800F3F0DB /* DemoLoginView.swift in Sources */,
 				9E28DA5B2654FD0400C5F378 /* FXKeyboardManager.swift in Sources */,
 				9EAB137E264E7147001DDE55 /* ImageDemoView.swift in Sources */,
+				9E03AEB42656632000F3F0DB /* DemoLoginViewModel.swift in Sources */,
 				9EE5A5842645331700D8C858 /* TextDemoView.swift in Sources */,
+				9EF8064026575DA700D19328 /* InputControlsDemoView.swift in Sources */,
 				9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

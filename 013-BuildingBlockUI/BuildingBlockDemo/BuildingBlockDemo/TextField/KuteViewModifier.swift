@@ -21,11 +21,32 @@ struct KuteViewModifier: ViewModifier {
     }
 }
 
+struct KuteButtonViewModifier: ViewModifier {
+    
+    var isDisabled = false
+    
+    func body(content: Content) -> some View {
+        content
+            .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
+            .background(isDisabled ? Color.gray : Color.black)
+            .cornerRadius(8)
+            .shadow(color: Color.gray.opacity(1.0), radius: 3, x: 1, y: 2)
+    }
+}
+
+
 extension View {
     func kute() -> some View {
         ModifiedContent(
             content: self,
             modifier: KuteViewModifier()
+        )
+    }
+    
+    func kuteButton(isDisabled: Bool = false) -> some View {
+        ModifiedContent(
+            content: self,
+            modifier: KuteButtonViewModifier(isDisabled: isDisabled)
         )
     }
 }
