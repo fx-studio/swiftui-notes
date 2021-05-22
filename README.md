@@ -81,11 +81,12 @@ Cấu hình đề xuất:
 2. [Image](./013-BuildingBlockUI/02_Image.md)
 3. TextField [(part 1)](./013-BuildingBlockUI/03_Textfield_1.md) & [(part 2)](./013-BuildingBlockUI/03_Textfield_2.md)
 4. [Input Controls](./013-BuildingBlockUI/04_InputControls.md) (Button, Toggle, Slider ...)
-5. ...
+5. [Layout](./013-BuildingBlockUI/05_Layout.md)
+6. ...
 
 ---
 
-> *Về bản quyền của Repo và mã nguồn trong repo là hoàn toàn miễn phí  cho các mục đích phi lợi nhuận và học tập. Tất cả các hành vi sao chép  hay sử dụng vì mục đích thương mại thì đều là vi phạm.*
+> *Về bản quyền của Repo và mã nguồn trong repo là hoàn toàn miễn phí cho các mục đích phi lợi nhuận và học tập. Tất cả các hành vi sao chép  hay sử dụng vì mục đích thương mại thì đều là vi phạm.*
 
 Cảm ơn bạn đã theo dõi các bài viết từ **Fx Studio** & hãy truy cập [website](https://fxstudio.dev/) để cập nhật nhiều hơn!
 
