@@ -1,4 +1,4 @@
-# 013 - Bản chất của Layout trong SwiftUI
+# 013.5 - Bản chất của Layout trong SwiftUI
 
 Chào bạn đến với **Fx Studio**. Chúng ta tiếp tục hành trình bất tận với **SwiftUI**. Bài viết này sẽ trình bày khá nhiều về lý thuyết của **Bố cục giao diện** (layout) trong SwiftUI. Và đây cũng là vấn đề đau đầu nhất trong quá trình phát triển ứng dụng SwiftUI.
 
@@ -29,7 +29,7 @@ Về mặt demo, hầu như là demo đơn giản, vì tập trung vào từng v
 Nếu bạn là một dev iOS, thì bạn khá quen với các khái niệm như **Auto Layout** hay **Auto resizing mark** hay **frame** ... Đó là những thứ giúp bạn tạo nên bố cục của một giao diện. Bản chất của chúng là:
 
 * Sự ràng buộc giữa các thành phần trong một giao diện.
-* S ràng buộc giữa các thành phần cha với các thành phần con của nó.
+* Sự ràng buộc giữa các thành phần cha với các thành phần con của nó.
 * Xác đinh bố cục dựa theo một số thuộc tính hay kích thước cố định.
 
 Đó chỉ là một số đặc trưng chung khi ta làm việc với UIKit mà thôi. Nôm na, việc bạn thế kế bố cục với UIKit sẽ là:

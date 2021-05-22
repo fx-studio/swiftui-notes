@@ -82,7 +82,7 @@ Cấu hình đề xuất:
 3. TextField [(part 1)](./013-BuildingBlockUI/03_Textfield_1.md) & [(part 2)](./013-BuildingBlockUI/03_Textfield_2.md)
 4. [Input Controls](./013-BuildingBlockUI/04_InputControls.md) (Button, Toggle, Slider ...)
 5. [Layout](./013-BuildingBlockUI/05_Layout.md)
-6. ...
+6. [Stacks & Containers](,/013-BuildingBlockUI/06_StacksContainers.md)
 
 ---
 

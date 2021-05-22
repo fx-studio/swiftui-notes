@@ -22,6 +22,8 @@
 		9E5E5F182658BDD300CC5522 /* LayoutDemo6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E5F172658BDD300CC5522 /* LayoutDemo6.swift */; };
 		9E5E5F1A2658BF5100CC5522 /* LayoutDemo7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E5F192658BF5100CC5522 /* LayoutDemo7.swift */; };
 		9E5E5F1C2658C24800CC5522 /* LayoutDemo8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E5F1B2658C24800CC5522 /* LayoutDemo8.swift */; };
+		9E925A0826590D45006DAF0D /* ContainerDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E925A0726590D45006DAF0D /* ContainerDemo1.swift */; };
+		9E925A0A26592BE9006DAF0D /* ContainerDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E925A0926592BE9006DAF0D /* ContainerDemo2.swift */; };
 		9EAB137E264E7147001DDE55 /* ImageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB137D264E7147001DDE55 /* ImageDemoView.swift */; };
 		9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A572264532DB00D8C858 /* BuildingBlockDemoApp.swift */; };
 		9EE5A575264532DB00D8C858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A574264532DB00D8C858 /* ContentView.swift */; };
@@ -47,6 +49,8 @@
 		9E5E5F172658BDD300CC5522 /* LayoutDemo6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDemo6.swift; sourceTree = "<group>"; };
 		9E5E5F192658BF5100CC5522 /* LayoutDemo7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDemo7.swift; sourceTree = "<group>"; };
 		9E5E5F1B2658C24800CC5522 /* LayoutDemo8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDemo8.swift; sourceTree = "<group>"; };
+		9E925A0726590D45006DAF0D /* ContainerDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerDemo1.swift; sourceTree = "<group>"; };
+		9E925A0926592BE9006DAF0D /* ContainerDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerDemo2.swift; sourceTree = "<group>"; };
 		9EAB137D264E7147001DDE55 /* ImageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemoView.swift; sourceTree = "<group>"; };
 		9EE5A56F264532DB00D8C858 /* BuildingBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildingBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5A572264532DB00D8C858 /* BuildingBlockDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingBlockDemoApp.swift; sourceTree = "<group>"; };
@@ -113,6 +117,15 @@
 			path = Layouts;
 			sourceTree = "<group>";
 		};
+		9E925A0626590D31006DAF0D /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				9E925A0726590D45006DAF0D /* ContainerDemo1.swift */,
+				9E925A0926592BE9006DAF0D /* ContainerDemo2.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
 		9EAB137C264E7135001DDE55 /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +153,7 @@
 		9EE5A571264532DB00D8C858 /* BuildingBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E925A0626590D31006DAF0D /* Containers */,
 				9E5E5F0C2658A41300CC5522 /* Layouts */,
 				9E03AEB02656052700F3F0DB /* InputControls */,
 				9E2731AE26536AE200347086 /* TextField */,
@@ -259,6 +273,7 @@
 				9E28DA562654BB5000C5F378 /* TextFieldDemo2View.swift in Sources */,
 				9E28DA582654CB1800C5F378 /* KuteViewModifier.swift in Sources */,
 				9E5E5F1A2658BF5100CC5522 /* LayoutDemo7.swift in Sources */,
+				9E925A0A26592BE9006DAF0D /* ContainerDemo2.swift in Sources */,
 				9E5E5F162658BBEA00CC5522 /* LayoutDemo5.swift in Sources */,
 				9E03AEB22656054800F3F0DB /* DemoLoginView.swift in Sources */,
 				9E28DA5B2654FD0400C5F378 /* FXKeyboardManager.swift in Sources */,
@@ -267,6 +282,7 @@
 				9EE5A5842645331700D8C858 /* TextDemoView.swift in Sources */,
 				9EF8064026575DA700D19328 /* InputControlsDemoView.swift in Sources */,
 				9EE5A573264532DB00D8C858 /* BuildingBlockDemoApp.swift in Sources */,
+				9E925A0826590D45006DAF0D /* ContainerDemo1.swift in Sources */,
 				9E5E5F102658A68F00CC5522 /* LayoutDemo2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

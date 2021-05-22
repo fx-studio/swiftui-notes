@@ -32,7 +32,7 @@ Trong phần này, chúng ta sẽ không đi vào việc giải thích các vấ
 3. TextField [(part 1)](./03_Textfield_1.md) & [(part 2)](./03_Textfield_2.md)
 4. [Input Controls](./04_InputControls.md) (Button, Toggle, Slider ...)
 5. [Layout](./05_Layout.md)
-6. ...
+6. [Stacks & Containers](./06_StacksContainers.md)
 
 ## Lưu ý
 
