@@ -17,7 +17,7 @@ Với SwiftUI 2.0, chúng ta sẽ được cập nhật nhiều hơn từ Apple 
 
 ## Danh sách các bài viết:
 
-1. [Tổng quát](./01_ OverView.md)
+1. [Tổng quát](./01_OverView.md)
 2. State
 3. The single source of truth
 4. Observation
