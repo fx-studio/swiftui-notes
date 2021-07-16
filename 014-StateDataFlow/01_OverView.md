@@ -65,22 +65,22 @@ name = nameTextField.text
 
 Vấn đề dễ thấy sẽ là:
 
-- - Quá nhiều đối tượng để lưu trữ và truyền dữ liệu
-  - Bạn sử dụng thêm Model để làm nơi lưu trữ dữ liệu thì sẽ tăng thêm các biến và vùng nhớ đề lưu trữ dữ liệu. Nhưng chưa chắc giao diện sẽ được cập nhật đúng.
+* Quá nhiều đối tượng để lưu trữ và truyền dữ liệu
+* Bạn sử dụng thêm Model để làm nơi lưu trữ dữ liệu thì sẽ tăng thêm các biến và vùng nhớ đề lưu trữ dữ liệu. Nhưng chưa chắc giao diện sẽ được cập nhật đúng.
 
 Vấn đề khó thấy sẽ là:
 
-- - Trạng thái của dữ liệu chưa chắc là trạng thái của giao diện.
-  - Sự phát sinh thêm nhiều logic hoặc tách thêm các Model xử lý. Dẫn tới cồng kềnh
-  - Sự nhập nhèn trong chính nền tảng của (AppKit & UIKit), khi View & Controller không tách biệt rõ ràng.
+* Trạng thái của dữ liệu chưa chắc là trạng thái của giao diện.
+* Sự phát sinh thêm nhiều logic hoặc tách thêm các Model xử lý. Dẫn tới cồng kềnh
+* Sự nhập nhèn trong chính nền tảng của (AppKit & UIKit), khi View & Controller không tách biệt rõ ràng.
 
 ### Tóm tắt
 
-- - Vì nó quá cồng kềnh nên nó là vấn đề chính
-  - Luôn phải đảm bảo cho UI & Model phải đồng bộ với nhau
-  - Trạng thái dữ liệu không phải lúc nào cũng đồng bộ với UI
-  - Từ View bạn có thể thay đổi trạng thái dữ liệu & model
-  - Rất dễ phát sinh lỗi
+* Vì nó quá cồng kềnh nên nó là vấn đề chính
+* Luôn phải đảm bảo cho UI & Model phải đồng bộ với nhau
+* Trạng thái dữ liệu không phải lúc nào cũng đồng bộ với UI
+* Từ View bạn có thể thay đổi trạng thái dữ liệu & model
+* Rất dễ phát sinh lỗi
 
 ## 2. Một giao diện cũng là một chức năng
 

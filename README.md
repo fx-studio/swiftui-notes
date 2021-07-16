@@ -87,7 +87,8 @@ Cấu hình đề xuất:
 ### [Part VII : State & Data Flow](./014-StateDataFlow)
 
 1. [Tổng quát](./014-StateDataFlow/01_OverView.md)
-2. ...
+2. [User Interface State](./014-StateDataFlow/02_UserInterfaceState.md)
+3. ...
 
 ---
 
