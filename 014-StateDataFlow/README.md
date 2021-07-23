@@ -20,7 +20,7 @@ Với SwiftUI 2.0, chúng ta sẽ được cập nhật nhiều hơn từ Apple 
 1. [Tổng quát](./01_OverView.md)
 2. [User Interface State](./02_UserInterfaceState.md)
 3. [The single source of truth](./03_TheSingleSourceOfTruth.md)
-4. Observation
+4. [Observation](./04_Observation.md)
 5. Sharing in the environment
 
 ## Lưu ý

@@ -89,7 +89,8 @@ Cấu hình đề xuất:
 1. [Tổng quát](./014-StateDataFlow/01_OverView.md)
 2. [User Interface State](./014-StateDataFlow/02_UserInterfaceState.md)
 3. [The single source of truth](./014-StateDataFlow/03_TheSingleSourceOfTruth.md)
-4. ...
+4. [Observation](./014-StateDataFlow/04_Observation.md)
+5. ...
 
 ---
 
