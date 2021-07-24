@@ -90,7 +90,7 @@ Cấu hình đề xuất:
 2. [User Interface State](./014-StateDataFlow/02_UserInterfaceState.md)
 3. [The single source of truth](./014-StateDataFlow/03_TheSingleSourceOfTruth.md)
 4. [Observation](./014-StateDataFlow/04_Observation.md)
-5. ...
+5. [Environment](./014-StateDataFlow/05_Environment.md)
 
 ---
 

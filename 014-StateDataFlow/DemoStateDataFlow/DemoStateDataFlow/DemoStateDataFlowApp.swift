@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct DemoStateDataFlowApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            //ContentView()
+            var userProfile = UserProfile(name: "Fx", email: "admin@fxstudio.com", age: 20, gender: true)
+            
+            View6()
+                .environmentObject(userProfile)
+                .environmentObject(Settings())
         }
     }
 }

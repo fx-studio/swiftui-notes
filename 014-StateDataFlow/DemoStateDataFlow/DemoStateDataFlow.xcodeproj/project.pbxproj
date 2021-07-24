@@ -16,6 +16,8 @@
 		9E66898626A3DBCA00894859 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E66898526A3DBCA00894859 /* View3.swift */; };
 		9E788D9826A182960044C5CD /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E788D9726A182960044C5CD /* View2.swift */; };
 		9ECA4D4B26A5245900415401 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA4D4A26A5245900415401 /* View5.swift */; };
+		9ED9138026ABA806005DA63F /* View6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9137F26ABA806005DA63F /* View6.swift */; };
+		9ED9138226ABBB52005DA63F /* View7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9138126ABBB52005DA63F /* View7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9E66898526A3DBCA00894859 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		9E788D9726A182960044C5CD /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		9ECA4D4A26A5245900415401 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
+		9ED9137F26ABA806005DA63F /* View6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View6.swift; sourceTree = "<group>"; };
+		9ED9138126ABBB52005DA63F /* View7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				9E66898526A3DBCA00894859 /* View3.swift */,
 				9E66898326A3D44000894859 /* View4.swift */,
 				9ECA4D4A26A5245900415401 /* View5.swift */,
+				9ED9137F26ABA806005DA63F /* View6.swift */,
+				9ED9138126ABBB52005DA63F /* View7.swift */,
 			);
 			path = DemoStateDataFlow;
 			sourceTree = "<group>";
@@ -157,9 +163,11 @@
 				9E66898426A3D44000894859 /* View4.swift in Sources */,
 				9E26CE0E2666262D001EB1DE /* View1.swift in Sources */,
 				9E26CDFF2665D549001EB1DE /* DemoStateDataFlowApp.swift in Sources */,
+				9ED9138226ABBB52005DA63F /* View7.swift in Sources */,
 				9E66898626A3DBCA00894859 /* View3.swift in Sources */,
 				9ECA4D4B26A5245900415401 /* View5.swift in Sources */,
 				9E788D9826A182960044C5CD /* View2.swift in Sources */,
+				9ED9138026ABA806005DA63F /* View6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
