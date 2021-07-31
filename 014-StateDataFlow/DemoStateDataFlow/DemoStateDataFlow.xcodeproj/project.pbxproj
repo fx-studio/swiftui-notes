@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E06566C26B5069F003FA3C0 /* View10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E06566B26B5069F003FA3C0 /* View10.swift */; };
 		9E26CDFF2665D549001EB1DE /* DemoStateDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E26CDFE2665D549001EB1DE /* DemoStateDataFlowApp.swift */; };
 		9E26CE012665D549001EB1DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E26CE002665D549001EB1DE /* ContentView.swift */; };
 		9E26CE032665D54A001EB1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E26CE022665D54A001EB1DE /* Assets.xcassets */; };
@@ -18,9 +19,12 @@
 		9ECA4D4B26A5245900415401 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA4D4A26A5245900415401 /* View5.swift */; };
 		9ED9138026ABA806005DA63F /* View6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9137F26ABA806005DA63F /* View6.swift */; };
 		9ED9138226ABBB52005DA63F /* View7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9138126ABBB52005DA63F /* View7.swift */; };
+		9EE084B526B4F7C20089DDF4 /* View8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE084B426B4F7C20089DDF4 /* View8.swift */; };
+		9EE084B726B4FF6B0089DDF4 /* View9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE084B626B4FF6B0089DDF4 /* View9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E06566B26B5069F003FA3C0 /* View10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View10.swift; sourceTree = "<group>"; };
 		9E26CDFB2665D549001EB1DE /* DemoStateDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoStateDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E26CDFE2665D549001EB1DE /* DemoStateDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoStateDataFlowApp.swift; sourceTree = "<group>"; };
 		9E26CE002665D549001EB1DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		9ECA4D4A26A5245900415401 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		9ED9137F26ABA806005DA63F /* View6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View6.swift; sourceTree = "<group>"; };
 		9ED9138126ABBB52005DA63F /* View7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View7.swift; sourceTree = "<group>"; };
+		9EE084B426B4F7C20089DDF4 /* View8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View8.swift; sourceTree = "<group>"; };
+		9EE084B626B4FF6B0089DDF4 /* View9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View9.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 				9ECA4D4A26A5245900415401 /* View5.swift */,
 				9ED9137F26ABA806005DA63F /* View6.swift */,
 				9ED9138126ABBB52005DA63F /* View7.swift */,
+				9EE084B426B4F7C20089DDF4 /* View8.swift */,
+				9EE084B626B4FF6B0089DDF4 /* View9.swift */,
+				9E06566B26B5069F003FA3C0 /* View10.swift */,
 			);
 			path = DemoStateDataFlow;
 			sourceTree = "<group>";
@@ -160,12 +169,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E26CE012665D549001EB1DE /* ContentView.swift in Sources */,
+				9EE084B526B4F7C20089DDF4 /* View8.swift in Sources */,
 				9E66898426A3D44000894859 /* View4.swift in Sources */,
 				9E26CE0E2666262D001EB1DE /* View1.swift in Sources */,
 				9E26CDFF2665D549001EB1DE /* DemoStateDataFlowApp.swift in Sources */,
 				9ED9138226ABBB52005DA63F /* View7.swift in Sources */,
 				9E66898626A3DBCA00894859 /* View3.swift in Sources */,
+				9E06566C26B5069F003FA3C0 /* View10.swift in Sources */,
 				9ECA4D4B26A5245900415401 /* View5.swift in Sources */,
+				9EE084B726B4FF6B0089DDF4 /* View9.swift in Sources */,
 				9E788D9826A182960044C5CD /* View2.swift in Sources */,
 				9ED9138026ABA806005DA63F /* View6.swift in Sources */,
 			);

@@ -91,6 +91,7 @@ Cấu hình đề xuất:
 3. [The single source of truth](./014-StateDataFlow/03_TheSingleSourceOfTruth.md)
 4. [Observation](./014-StateDataFlow/04_Observation.md)
 5. [Environment](./014-StateDataFlow/05_Environment.md)
+6. [Storing Data](./014-StateDataFlow/06_StoringData.md)
 
 ---
 

@@ -22,6 +22,7 @@ Với SwiftUI 2.0, chúng ta sẽ được cập nhật nhiều hơn từ Apple 
 3. [The single source of truth](./03_TheSingleSourceOfTruth.md)
 4. [Observation](./04_Observation.md)
 5. [Sharing in the environment](./05_Environment.md)
+6. [Storing Data](./06_StoringData.md)
 
 ## Lưu ý
 
