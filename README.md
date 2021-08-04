@@ -100,7 +100,7 @@ Cấu hình đề xuất:
 3. [Sections & Grouped](./015-WorkingWithList/03_SectionsGrouped.md)
 4. [Editing Mode](./015-WorkingWithList/04_EditingMode.md)
 5. [Multiple Selection](./015-WorkingWithList/05_MultipleSelection.md)
-6. [Fetching Data form API](./015-WorkingWithList/015-WorkingWithList/06_FetchingData.md)
+6. [Fetching Data form API](./015-WorkingWithList/06_FetchingData.md)
 
 
 
