@@ -93,6 +93,17 @@ Cấu hình đề xuất:
 5. [Environment](./014-StateDataFlow/05_Environment.md)
 6. [Storing Data](./014-StateDataFlow/06_StoringData.md)
 
+### [Part VIII : Working with List](./015-WorkingWithList)
+
+1. [Simple List](./015-WorkingWithList/01_SimpleList.md)
+2. [Dynamic List](./015-WorkingWithList/02_DynamicList.md)
+3. [Sections & Grouped](./015-WorkingWithList/03_SectionsGrouped.md)
+4. [Editing Mode](./015-WorkingWithList/04_EditingMode.md)
+5. [Multiple Selection](./015-WorkingWithList/05_MultipleSelection.md)
+6. [Fetching Data form API](./015-WorkingWithList/015-WorkingWithList/06_FetchingData.md)
+
+
+
 ---
 
 > *Về bản quyền của Repo và mã nguồn trong repo là hoàn toàn miễn phí cho các mục đích phi lợi nhuận và học tập. Tất cả các hành vi sao chép  hay sử dụng vì mục đích thương mại thì đều là vi phạm.*
