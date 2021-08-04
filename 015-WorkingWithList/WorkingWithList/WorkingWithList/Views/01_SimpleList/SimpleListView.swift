@@ -9,7 +9,22 @@ import SwiftUI
 
 struct SimpleListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Text("Item 1")
+                .font(.title)
+            Text("SwiftUI")
+            Button(action: {
+                
+            }, label: {
+                Text("Button")
+            })
+            Text("Item 4")
+                .foregroundColor(Color.blue)
+            Image(systemName: "globe")
+                .resizable()
+                .foregroundColor(Color.red)
+                .frame(width: 80, height: 80)
+        }
     }
 }
 
