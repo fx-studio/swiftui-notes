@@ -16,6 +16,7 @@
 		9E0B8E4F26BA45F4003631F0 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B8E4E26BA45F4003631F0 /* UserCell.swift */; };
 		9E0B8E5126BA4B79003631F0 /* ForEachDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B8E5026BA4B79003631F0 /* ForEachDemoView.swift */; };
 		9E5F6CAC26BBCBE8004D1340 /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F6CAB26BBCBE8004D1340 /* DynamicListView.swift */; };
+		9E815D4926BE81B2000145AF /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E815D4826BE81B2000145AF /* SectionListView.swift */; };
 		9EAF5FA526BCB74700919A0E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF5FA426BCB74700919A0E /* Weather.swift */; };
 		9EAF5FA726BCB86E00919A0E /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF5FA626BCB86E00919A0E /* WeatherRow.swift */; };
 		9EAF5FA926BCB97200919A0E /* WeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF5FA826BCB97200919A0E /* WeatherList.swift */; };
@@ -35,6 +36,7 @@
 		9E0B8E4E26BA45F4003631F0 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		9E0B8E5026BA4B79003631F0 /* ForEachDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachDemoView.swift; sourceTree = "<group>"; };
 		9E5F6CAB26BBCBE8004D1340 /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
+		9E815D4826BE81B2000145AF /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
 		9EAF5FA426BCB74700919A0E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		9EAF5FA626BCB86E00919A0E /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		9EAF5FA826BCB97200919A0E /* WeatherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherList.swift; sourceTree = "<group>"; };
@@ -102,7 +104,7 @@
 		9E0B8E4526BA343F003631F0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9EAF5FAC26BCD30800919A0E /* Customs */,
+				9E815D4726BE8169000145AF /* 03_SectionGrouped */,
 				9E5F6CAA26BBCB0A004D1340 /* 02_DynamicList */,
 				9E0B8E4926BA3594003631F0 /* 01_SimpleList */,
 				9E0B8E3726BA3410003631F0 /* ContentView.swift */,
@@ -140,6 +142,7 @@
 				9E0B8E4C26BA4302003631F0 /* LoopItemsView.swift */,
 				9E0B8E4E26BA45F4003631F0 /* UserCell.swift */,
 				9E0B8E5026BA4B79003631F0 /* ForEachDemoView.swift */,
+				9EAF5FAC26BCD30800919A0E /* Customs */,
 			);
 			path = 01_SimpleList;
 			sourceTree = "<group>";
@@ -153,6 +156,14 @@
 				9EAF5FAA26BCCF7D00919A0E /* WeatherDetail.swift */,
 			);
 			path = 02_DynamicList;
+			sourceTree = "<group>";
+		};
+		9E815D4726BE8169000145AF /* 03_SectionGrouped */ = {
+			isa = PBXGroup;
+			children = (
+				9E815D4826BE81B2000145AF /* SectionListView.swift */,
+			);
+			path = 03_SectionGrouped;
 			sourceTree = "<group>";
 		};
 		9EAF5FAC26BCD30800919A0E /* Customs */ = {
@@ -232,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E815D4926BE81B2000145AF /* SectionListView.swift in Sources */,
 				9EAF5FA526BCB74700919A0E /* Weather.swift in Sources */,
 				9E0B8E3826BA3410003631F0 /* ContentView.swift in Sources */,
 				9E0B8E4D26BA4302003631F0 /* LoopItemsView.swift in Sources */,
