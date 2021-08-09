@@ -50,7 +50,8 @@ struct SectionListView: View {
                 }
             }
         }
-        .listStyle(GroupedListStyle())
+        //.listStyle(GroupedListStyle())
+        .listStyle(InsetGroupedListStyle())
         
 //        List {
 //            Section(header: Text("ĐỘNG VẬT")) {

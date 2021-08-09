@@ -98,9 +98,10 @@ Cấu hình đề xuất:
 1. [Simple List](./015-WorkingWithList/01_SimpleList.md)
 2. [Dynamic List](./015-WorkingWithList/02_DynamicList.md)
 3. [Sections & Grouped](./015-WorkingWithList/03_SectionsGrouped.md)
-4. [Editing Mode](./015-WorkingWithList/04_EditingMode.md)
-5. [Multiple Selection](./015-WorkingWithList/05_MultipleSelection.md)
-6. [Fetching Data form API](./015-WorkingWithList/06_FetchingData.md)
+4. [Expandable List](./015-WorkingWithList/04_ExpandableList.md)
+5. [Editing Mode](./015-WorkingWithList/05_EditingMode.md)
+6. [Multiple Selection](./015-WorkingWithList/06_MultipleSelection.md)
+7. [Fetching Data form API](./015-WorkingWithList/07_FetchingData.md)
 
 
 

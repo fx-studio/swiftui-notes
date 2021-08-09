@@ -22,6 +22,11 @@
 		9EAF5FA926BCB97200919A0E /* WeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF5FA826BCB97200919A0E /* WeatherList.swift */; };
 		9EAF5FAB26BCCF7D00919A0E /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF5FAA26BCCF7D00919A0E /* WeatherDetail.swift */; };
 		9EAF5FAE26BCD31E00919A0E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF5FAD26BCD31E00919A0E /* CircleImage.swift */; };
+		9EB119F226C0C9A8002D6FDD /* ExpandableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F126C0C9A8002D6FDD /* ExpandableListView.swift */; };
+		9EB119F426C0C9BE002D6FDD /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F326C0C9BE002D6FDD /* MenuItem.swift */; };
+		9EB119F626C0D38B002D6FDD /* ExpandableListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F526C0D38B002D6FDD /* ExpandableListView2.swift */; };
+		9EB119F826C0D5A9002D6FDD /* FAQItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F726C0D5A9002D6FDD /* FAQItem.swift */; };
+		9EB119FA26C0D783002D6FDD /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F926C0D783002D6FDD /* FAQView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		9EAF5FA826BCB97200919A0E /* WeatherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherList.swift; sourceTree = "<group>"; };
 		9EAF5FAA26BCCF7D00919A0E /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		9EAF5FAD26BCD31E00919A0E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9EB119F126C0C9A8002D6FDD /* ExpandableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableListView.swift; sourceTree = "<group>"; };
+		9EB119F326C0C9BE002D6FDD /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		9EB119F526C0D38B002D6FDD /* ExpandableListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableListView2.swift; sourceTree = "<group>"; };
+		9EB119F726C0D5A9002D6FDD /* FAQItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQItem.swift; sourceTree = "<group>"; };
+		9EB119F926C0D783002D6FDD /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,7 @@
 		9E0B8E4526BA343F003631F0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9EB119F026C0C987002D6FDD /* 04_ExpandableList */,
 				9E815D4726BE8169000145AF /* 03_SectionGrouped */,
 				9E5F6CAA26BBCB0A004D1340 /* 02_DynamicList */,
 				9E0B8E4926BA3594003631F0 /* 01_SimpleList */,
@@ -123,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				9EAF5FA426BCB74700919A0E /* Weather.swift */,
+				9EB119F326C0C9BE002D6FDD /* MenuItem.swift */,
+				9EB119F726C0D5A9002D6FDD /* FAQItem.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -172,6 +185,16 @@
 				9EAF5FAD26BCD31E00919A0E /* CircleImage.swift */,
 			);
 			path = Customs;
+			sourceTree = "<group>";
+		};
+		9EB119F026C0C987002D6FDD /* 04_ExpandableList */ = {
+			isa = PBXGroup;
+			children = (
+				9EB119F126C0C9A8002D6FDD /* ExpandableListView.swift */,
+				9EB119F526C0D38B002D6FDD /* ExpandableListView2.swift */,
+				9EB119F926C0D783002D6FDD /* FAQView.swift */,
+			);
+			path = 04_ExpandableList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E815D4926BE81B2000145AF /* SectionListView.swift in Sources */,
+				9EB119F626C0D38B002D6FDD /* ExpandableListView2.swift in Sources */,
 				9EAF5FA526BCB74700919A0E /* Weather.swift in Sources */,
 				9E0B8E3826BA3410003631F0 /* ContentView.swift in Sources */,
 				9E0B8E4D26BA4302003631F0 /* LoopItemsView.swift in Sources */,
@@ -251,8 +275,12 @@
 				9E0B8E5126BA4B79003631F0 /* ForEachDemoView.swift in Sources */,
 				9EAF5FAE26BCD31E00919A0E /* CircleImage.swift in Sources */,
 				9E0B8E4B26BA35EE003631F0 /* SimpleListView.swift in Sources */,
+				9EB119F826C0D5A9002D6FDD /* FAQItem.swift in Sources */,
 				9EAF5FA926BCB97200919A0E /* WeatherList.swift in Sources */,
+				9EB119F426C0C9BE002D6FDD /* MenuItem.swift in Sources */,
 				9E0B8E4F26BA45F4003631F0 /* UserCell.swift in Sources */,
+				9EB119FA26C0D783002D6FDD /* FAQView.swift in Sources */,
+				9EB119F226C0C9A8002D6FDD /* ExpandableListView.swift in Sources */,
 				9E5F6CAC26BBCBE8004D1340 /* DynamicListView.swift in Sources */,
 				9EAF5FAB26BCCF7D00919A0E /* WeatherDetail.swift in Sources */,
 				9E0B8E3626BA3410003631F0 /* WorkingWithListApp.swift in Sources */,

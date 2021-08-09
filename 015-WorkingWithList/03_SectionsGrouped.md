@@ -279,6 +279,8 @@ Trong đó, thay vì lặp các phần tử trong danh sách 2 chiều. Chúng t
 
 Công việc còn lại thì sẽ như ở trên, với ForEach để sinh ra các Row cần thiết.
 
+### GroupedList
+
 Cuối cùng, bạn thêm một modifier này vào cho List.
 
 ```swift
@@ -293,6 +295,24 @@ Với **GroupedListStyle**, giúp cho List tự tách biệt các Section ra v�
 Bấn Resume và Live Preview để xem kết quả nhoé!
 
 ![img_262](../_img/262.png)
+
+### InsetGrouped
+
+Tương tự như *GroupedList* cho style của List. Bạn còn có một kiểu `style` **Grouped** nhìn đẹp hơn một tí nữa. Đó là **InsetGroupedListStyle**. 
+
+Để sử dụng nó thì bạn chỉ cần thay thế đối tượng trong modifier `..listStyle` là được. Xem ví dụ nhoé
+
+```swift
+        List {
+            // ...
+        }
+        //.listStyle(GroupedListStyle())
+        .listStyle(InsetGroupedListStyle())
+```
+
+Cũng khá đơn giản, bấn Resume & Live Preview để cảm nhận thêm kết quả.
+
+![img_263](../_img/263.png)
 
 ## Tạm kết
 

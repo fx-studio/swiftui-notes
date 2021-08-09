@@ -25,9 +25,10 @@ Về mặt kiến thức, bạn cần biết trước các kiến thức cơ b�
 1. [Simple List](./01_SimpleList.md)
 2. [Dynamic List](./02_DynamicList.md)
 3. [Sections & Grouped](./03_SectionsGrouped.md)
-4. [Editing Mode](./04_EditingMode.md)
-5. [Multiple Selection](./05_MultipleSelection.md)
-6. [Fetching Data form API](./06_FetchingData.md)
+4. [Expandable List](./04_ExpandableList.md)
+5. [Editing Mode](./05_EditingMode.md)
+6. [Multiple Selection](./06_MultipleSelection.md)
+7. [Fetching Data form API](./07_FetchingData.md)
 
 ## Lưu ý
 
