@@ -11,7 +11,8 @@ import SwiftUI
 struct WorkingWithListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            DidSelectedCellDemoView()
         }
     }
 }
