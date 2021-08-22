@@ -40,6 +40,13 @@
 		9EB119F626C0D38B002D6FDD /* ExpandableListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F526C0D38B002D6FDD /* ExpandableListView2.swift */; };
 		9EB119F826C0D5A9002D6FDD /* FAQItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F726C0D5A9002D6FDD /* FAQItem.swift */; };
 		9EB119FA26C0D783002D6FDD /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB119F926C0D783002D6FDD /* FAQView.swift */; };
+		9EFC770026D1EC200049965F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC76FF26D1EC200049965F /* Song.swift */; };
+		9EFC770226D1F2070049965F /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC770126D1F2070049965F /* SongListView.swift */; };
+		9EFC770426D1F2180049965F /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC770326D1F2180049965F /* SongListViewModel.swift */; };
+		9EFC770626D1F96A0049965F /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC770526D1F96A0049965F /* Downloader.swift */; };
+		9EFC770926D1FB610049965F /* LoadableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC770826D1FB610049965F /* LoadableImageView.swift */; };
+		9EFC770B26D1FC470049965F /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC770A26D1FC470049965F /* ActivityIndicator.swift */; };
+		9EFC770F26D203EA0049965F /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC770E26D203EA0049965F /* SongRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +85,13 @@
 		9EB119F526C0D38B002D6FDD /* ExpandableListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableListView2.swift; sourceTree = "<group>"; };
 		9EB119F726C0D5A9002D6FDD /* FAQItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQItem.swift; sourceTree = "<group>"; };
 		9EB119F926C0D783002D6FDD /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		9EFC76FF26D1EC200049965F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		9EFC770126D1F2070049965F /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		9EFC770326D1F2180049965F /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		9EFC770526D1F96A0049965F /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		9EFC770826D1FB610049965F /* LoadableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableImageView.swift; sourceTree = "<group>"; };
+		9EFC770A26D1FC470049965F /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		9EFC770E26D203EA0049965F /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +154,8 @@
 		9E0B8E4526BA343F003631F0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9EFC770726D1FB550049965F /* CustomViews */,
+				9EFC76FE26D1E9740049965F /* 07_FetchingData */,
 				9E942C7F26D0FA2E0078669D /* 06_MultiSelection */,
 				9E2A489126D09B6500D008C2 /* 05_EditingMode */,
 				9EB119F026C0C987002D6FDD /* 04_ExpandableList */,
@@ -155,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				9E942C8826D10F690078669D /* SelectionManager.swift */,
+				9EFC770526D1F96A0049965F /* Downloader.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 				9EB119F326C0C9BE002D6FDD /* MenuItem.swift */,
 				9EB119F726C0D5A9002D6FDD /* FAQItem.swift */,
 				9E942C8426D10CE10078669D /* Pet.swift */,
+				9EFC76FF26D1EC200049965F /* Song.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -260,6 +278,33 @@
 			path = 04_ExpandableList;
 			sourceTree = "<group>";
 		};
+		9EFC76FE26D1E9740049965F /* 07_FetchingData */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC770126D1F2070049965F /* SongListView.swift */,
+				9EFC770326D1F2180049965F /* SongListViewModel.swift */,
+			);
+			path = 07_FetchingData;
+			sourceTree = "<group>";
+		};
+		9EFC770726D1FB550049965F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC770D26D203E10049965F /* Rows */,
+				9EFC770826D1FB610049965F /* LoadableImageView.swift */,
+				9EFC770A26D1FC470049965F /* ActivityIndicator.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		9EFC770D26D203E10049965F /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC770E26D203EA0049965F /* SongRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -329,9 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFC770B26D1FC470049965F /* ActivityIndicator.swift in Sources */,
 				9E942C9026D1435E0078669D /* MultiSelectionWithCustomRowDemoView.swift in Sources */,
 				9E815D4926BE81B2000145AF /* SectionListView.swift in Sources */,
 				9EB119F626C0D38B002D6FDD /* ExpandableListView2.swift in Sources */,
+				9EFC770426D1F2180049965F /* SongListViewModel.swift in Sources */,
 				9E2A489726D0B07300D008C2 /* SelectionCell.swift in Sources */,
 				9E2A489326D09B8D00D008C2 /* DidSelectedCellDemoView.swift in Sources */,
 				9EAF5FA526BCB74700919A0E /* Weather.swift in Sources */,
@@ -342,12 +389,16 @@
 				9E942C8326D1072B0078669D /* MultiSelectionWithEditModeDemoView.swift in Sources */,
 				9E0B8E5126BA4B79003631F0 /* ForEachDemoView.swift in Sources */,
 				9EAF5FAE26BCD31E00919A0E /* CircleImage.swift in Sources */,
+				9EFC770F26D203EA0049965F /* SongRow.swift in Sources */,
 				9E0B8E4B26BA35EE003631F0 /* SimpleListView.swift in Sources */,
+				9EFC770626D1F96A0049965F /* Downloader.swift in Sources */,
+				9EFC770926D1FB610049965F /* LoadableImageView.swift in Sources */,
 				9E942C9226D1480F0078669D /* SuperMultiSelectRow.swift in Sources */,
 				9E942C8726D10D580078669D /* MultiSelectionWithObjectDemoView.swift in Sources */,
 				9E2A489526D0AE7500D008C2 /* BasicActionsForRowInListDemoView.swift in Sources */,
 				9EB119F826C0D5A9002D6FDD /* FAQItem.swift in Sources */,
 				9EAF5FA926BCB97200919A0E /* WeatherList.swift in Sources */,
+				9EFC770226D1F2070049965F /* SongListView.swift in Sources */,
 				9EB119F426C0C9BE002D6FDD /* MenuItem.swift in Sources */,
 				9E942C8E26D142DB0078669D /* MultiSelectRow.swift in Sources */,
 				9E0B8E4F26BA45F4003631F0 /* UserCell.swift in Sources */,
@@ -357,6 +408,7 @@
 				9EAF5FAB26BCCF7D00919A0E /* WeatherDetail.swift in Sources */,
 				9E942C8526D10CE10078669D /* Pet.swift in Sources */,
 				9E942C8126D0FBD10078669D /* MultiSelectionWithEditButtonDemoView.swift in Sources */,
+				9EFC770026D1EC200049965F /* Song.swift in Sources */,
 				9E942C8926D10F690078669D /* SelectionManager.swift in Sources */,
 				9E0B8E3626BA3410003631F0 /* WorkingWithListApp.swift in Sources */,
 				9E942C9426D148670078669D /* MultiSelectionWithSwitchModeSelectionDemoView.swift in Sources */,
