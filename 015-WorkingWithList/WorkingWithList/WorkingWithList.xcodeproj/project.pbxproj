@@ -281,6 +281,7 @@
 		9EFC76FE26D1E9740049965F /* 07_FetchingData */ = {
 			isa = PBXGroup;
 			children = (
+				9EFC770D26D203E10049965F /* Rows */,
 				9EFC770126D1F2070049965F /* SongListView.swift */,
 				9EFC770326D1F2180049965F /* SongListViewModel.swift */,
 			);
@@ -290,7 +291,6 @@
 		9EFC770726D1FB550049965F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				9EFC770D26D203E10049965F /* Rows */,
 				9EFC770826D1FB610049965F /* LoadableImageView.swift */,
 				9EFC770A26D1FC470049965F /* ActivityIndicator.swift */,
 			);

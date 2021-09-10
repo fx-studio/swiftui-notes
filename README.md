@@ -103,6 +103,15 @@ Cấu hình đề xuất:
 6. [Multiple Selection](./015-WorkingWithList/06_MultipleSelection.md)
 7. [Fetching Data form API](./015-WorkingWithList/07_FetchingData.md)
 
+### [Path IX : Routing in SwiftUI](./016-RoutingInSwiftUI)
+
+1. [Navigation](./016-RoutingInSwiftUI/01_Navigation.md)
+2. Push & Pop
+3. Modal Views & Alert
+4. Tabbar & PageView
+5. Custom Tabbar
+6. Change Root
+
 
 
 ---
