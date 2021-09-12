@@ -106,7 +106,7 @@ Cấu hình đề xuất:
 ### [Path IX : Routing in SwiftUI](./016-RoutingInSwiftUI)
 
 1. [Navigation](./016-RoutingInSwiftUI/01_Navigation.md)
-2. Push & Pop
+2. [Push & Pop](./016-RoutingInSwiftUI/02_Push_Pop.md)
 3. Modal Views & Alert
 4. Tabbar & PageView
 5. Custom Tabbar

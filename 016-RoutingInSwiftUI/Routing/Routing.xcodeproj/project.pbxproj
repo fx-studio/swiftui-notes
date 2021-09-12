@@ -10,6 +10,11 @@
 		9E03452E26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03452D26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift */; };
 		9E03453026EB679E00A62FD4 /* CustomDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03452F26EB679E00A62FD4 /* CustomDestinationView.swift */; };
 		9E03453226EB693A00A62FD4 /* NavigationLinkDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03453126EB693A00A62FD4 /* NavigationLinkDemo2.swift */; };
+		9E6F48AE26EDF84900E131E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48AD26EDF84900E131E8 /* LoginView.swift */; };
+		9E6F48B026EDF86600E131E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48AF26EDF86600E131E8 /* RegisterView.swift */; };
+		9E6F48B226EDF87B00E131E8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */; };
+		9E6F48B526EDFB1D00E131E8 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48B426EDFB1D00E131E8 /* ButtonStyles.swift */; };
+		9E6F48B726EE0B4100E131E8 /* RootPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48B626EE0B4100E131E8 /* RootPresentationMode.swift */; };
 		9EA256F726E9E71A00B917A0 /* RoutingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA256F626E9E71A00B917A0 /* RoutingApp.swift */; };
 		9EA256F926E9E71A00B917A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA256F826E9E71A00B917A0 /* ContentView.swift */; };
 		9EA256FB26E9E71C00B917A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA256FA26E9E71C00B917A0 /* Assets.xcassets */; };
@@ -21,6 +26,11 @@
 		9E03452D26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkDemo1.swift; sourceTree = "<group>"; };
 		9E03452F26EB679E00A62FD4 /* CustomDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDestinationView.swift; sourceTree = "<group>"; };
 		9E03453126EB693A00A62FD4 /* NavigationLinkDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkDemo2.swift; sourceTree = "<group>"; };
+		9E6F48AD26EDF84900E131E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9E6F48AF26EDF86600E131E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		9E6F48B426EDFB1D00E131E8 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		9E6F48B626EE0B4100E131E8 /* RootPresentationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresentationMode.swift; sourceTree = "<group>"; };
 		9EA256F326E9E71A00B917A0 /* Routing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA256F626E9E71A00B917A0 /* RoutingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingApp.swift; sourceTree = "<group>"; };
 		9EA256F826E9E71A00B917A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +50,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E6F48AC26EDF82600E131E8 /* 02_Push_Pop */ = {
+			isa = PBXGroup;
+			children = (
+				9E6F48AD26EDF84900E131E8 /* LoginView.swift */,
+				9E6F48AF26EDF86600E131E8 /* RegisterView.swift */,
+				9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */,
+			);
+			path = 02_Push_Pop;
+			sourceTree = "<group>";
+		};
+		9E6F48B326EDFB0100E131E8 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				9E6F48B426EDFB1D00E131E8 /* ButtonStyles.swift */,
+				9E6F48B626EE0B4100E131E8 /* RootPresentationMode.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 		9EA256EA26E9E71A00B917A0 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +88,7 @@
 		9EA256F526E9E71A00B917A0 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				9E6F48B326EDFB0100E131E8 /* Commons */,
 				9EA2570426E9E72E00B917A0 /* App */,
 				9EA2570526E9E73800B917A0 /* Views */,
 				9EA2570626E9E75200B917A0 /* Resources */,
@@ -86,6 +116,7 @@
 		9EA2570526E9E73800B917A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E6F48AC26EDF82600E131E8 /* 02_Push_Pop */,
 				9EA2570726E9E78100B917A0 /* 01_Naviagtion */,
 				9EA256F826E9E71A00B917A0 /* ContentView.swift */,
 			);
@@ -182,11 +213,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E03452E26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift in Sources */,
+				9E6F48AE26EDF84900E131E8 /* LoginView.swift in Sources */,
 				9E03453026EB679E00A62FD4 /* CustomDestinationView.swift in Sources */,
+				9E6F48B526EDFB1D00E131E8 /* ButtonStyles.swift in Sources */,
 				9EA256F926E9E71A00B917A0 /* ContentView.swift in Sources */,
 				9E03453226EB693A00A62FD4 /* NavigationLinkDemo2.swift in Sources */,
+				9E6F48B026EDF86600E131E8 /* RegisterView.swift in Sources */,
 				9EA2570926E9E79900B917A0 /* NavigationViewDemo.swift in Sources */,
+				9E6F48B226EDF87B00E131E8 /* ForgotPasswordView.swift in Sources */,
 				9EA256F726E9E71A00B917A0 /* RoutingApp.swift in Sources */,
+				9E6F48B726EE0B4100E131E8 /* RootPresentationMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
