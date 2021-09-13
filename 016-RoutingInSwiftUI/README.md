@@ -24,7 +24,7 @@ Về mặt kiến thức, bạn cần biết trước các kiến thức cơ b�
 
 1. [Navigation](./01_Navigation.md)
 2. [Push & Pop](./02_Push_Pop.md)
-3. Modal Views & Alert
+3. [Modal Views & Alert](./03_ModalView_Alert.md)
 4. Tabbar & PageView
 5. Custom Tabbar
 6. Change Root

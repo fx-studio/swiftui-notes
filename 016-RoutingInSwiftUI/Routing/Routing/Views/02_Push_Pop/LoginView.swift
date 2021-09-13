@@ -16,6 +16,9 @@ struct LoginView: View {
     @State var isActive2 = false
     @State var selection: Int?
     
+    @State var isPresent = false
+    @State var isAlert = false
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -45,6 +48,7 @@ struct LoginView: View {
                     HStack {
                         Button {
                             // goto Home
+                            isAlert = true
                         } label: {
                             Text("Login")
                         }
@@ -64,7 +68,7 @@ struct LoginView: View {
                 // Others button
                 Spacer()
                 VStack {
-
+                    
                     // #1
                     NavigationLink(destination: RegisterView(isRootActive: $isActive1), isActive: $isActive1) {
                         Text("Register a new account")
@@ -86,20 +90,29 @@ struct LoginView: View {
                     }
                     .buttonStyle(GrayButton())
                     
+                    // FAQ Button
+                    Button {
+                        isPresent = true
+                    } label: {
+                        Text("FAQ")
+                    }
+                    .buttonStyle(DefaultButtonStyle())
+                    
+                    
                     // #3
                     /*
-                    NavigationLink(destination: RegisterView(selection: $selection), tag: 1, selection: self.$selection) {
-                        Text("Register a new account")
-                            .frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(BlueButton())
-                    
-                    NavigationLink(destination: ForgotPasswordView(selection: $selection), tag: 2, selection: self.$selection) {
-                        Text("Forgot password")
-                            .frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(GrayButton())
-                    */
+                     NavigationLink(destination: RegisterView(selection: $selection), tag: 1, selection: self.$selection) {
+                     Text("Register a new account")
+                     .frame(maxWidth: .infinity)
+                     }
+                     .buttonStyle(BlueButton())
+                     
+                     NavigationLink(destination: ForgotPasswordView(selection: $selection), tag: 2, selection: self.$selection) {
+                     Text("Forgot password")
+                     .frame(maxWidth: .infinity)
+                     }
+                     .buttonStyle(GrayButton())
+                     */
                     
                 }
                 .padding()
@@ -107,6 +120,22 @@ struct LoginView: View {
             }
             .padding()
             .navigationBarTitleDisplayMode(.inline)
+            //.sheet(isPresented: $isPresent) {
+            .fullScreenCover(isPresented: $isPresent) {
+                // dismis
+            } content: {
+                // content
+                FAQView(isPresent: $isPresent)
+            }
+            .alert(isPresented: $isAlert) {
+                Alert(title: Text("Login"),
+                      message: Text("Are you sure?"),
+                      primaryButton: .default(Text("YES"), action: {
+                        isAlert = false
+                      }),
+                      secondaryButton: .cancel(Text("NO"))
+                )
+            }
             
         }
         .navigationViewStyle(StackNavigationViewStyle())
