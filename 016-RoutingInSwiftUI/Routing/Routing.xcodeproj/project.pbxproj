@@ -10,6 +10,13 @@
 		9E03452E26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03452D26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift */; };
 		9E03453026EB679E00A62FD4 /* CustomDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03452F26EB679E00A62FD4 /* CustomDestinationView.swift */; };
 		9E03453226EB693A00A62FD4 /* NavigationLinkDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03453126EB693A00A62FD4 /* NavigationLinkDemo2.swift */; };
+		9E05E8BA26F0892F005691D2 /* Demo1TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8B926F0892F005691D2 /* Demo1TabView.swift */; };
+		9E05E8BC26F0A148005691D2 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8BB26F0A148005691D2 /* TutorialView.swift */; };
+		9E05E8BE26F0A9CA005691D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8BD26F0A9CA005691D2 /* HomeView.swift */; };
+		9E05E8C026F0AA13005691D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8BF26F0AA13005691D2 /* MapView.swift */; };
+		9E05E8C226F0AA1E005691D2 /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8C126F0AA1E005691D2 /* VideosView.swift */; };
+		9E05E8C426F0AA2F005691D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8C326F0AA2F005691D2 /* ProfileView.swift */; };
+		9E05E8C626F0AADB005691D2 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8C526F0AADB005691D2 /* MyTabView.swift */; };
 		9E6F48AE26EDF84900E131E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48AD26EDF84900E131E8 /* LoginView.swift */; };
 		9E6F48B026EDF86600E131E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48AF26EDF86600E131E8 /* RegisterView.swift */; };
 		9E6F48B226EDF87B00E131E8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */; };
@@ -28,6 +35,13 @@
 		9E03452D26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkDemo1.swift; sourceTree = "<group>"; };
 		9E03452F26EB679E00A62FD4 /* CustomDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDestinationView.swift; sourceTree = "<group>"; };
 		9E03453126EB693A00A62FD4 /* NavigationLinkDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkDemo2.swift; sourceTree = "<group>"; };
+		9E05E8B926F0892F005691D2 /* Demo1TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1TabView.swift; sourceTree = "<group>"; };
+		9E05E8BB26F0A148005691D2 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		9E05E8BD26F0A9CA005691D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9E05E8BF26F0AA13005691D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9E05E8C126F0AA1E005691D2 /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		9E05E8C326F0AA2F005691D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9E05E8C526F0AADB005691D2 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		9E6F48AD26EDF84900E131E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9E6F48AF26EDF86600E131E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
@@ -54,6 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E05E8B826F0890F005691D2 /* 04_TabView */ = {
+			isa = PBXGroup;
+			children = (
+				9E05E8B926F0892F005691D2 /* Demo1TabView.swift */,
+				9E05E8BB26F0A148005691D2 /* TutorialView.swift */,
+				9E05E8BD26F0A9CA005691D2 /* HomeView.swift */,
+				9E05E8BF26F0AA13005691D2 /* MapView.swift */,
+				9E05E8C126F0AA1E005691D2 /* VideosView.swift */,
+				9E05E8C326F0AA2F005691D2 /* ProfileView.swift */,
+				9E05E8C526F0AADB005691D2 /* MyTabView.swift */,
+			);
+			path = 04_TabView;
+			sourceTree = "<group>";
+		};
 		9E6F48AC26EDF82600E131E8 /* 02_Push_Pop */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +149,7 @@
 		9EA2570526E9E73800B917A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E05E8B826F0890F005691D2 /* 04_TabView */,
 				9EFAD06A26EF43BC005721BF /* 03_ModalView */,
 				9E6F48AC26EDF82600E131E8 /* 02_Push_Pop */,
 				9EA2570726E9E78100B917A0 /* 01_Naviagtion */,
@@ -227,16 +256,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E03452E26EB5FBF00A62FD4 /* NavigationLinkDemo1.swift in Sources */,
+				9E05E8BA26F0892F005691D2 /* Demo1TabView.swift in Sources */,
+				9E05E8C226F0AA1E005691D2 /* VideosView.swift in Sources */,
 				9E6F48AE26EDF84900E131E8 /* LoginView.swift in Sources */,
 				9E03453026EB679E00A62FD4 /* CustomDestinationView.swift in Sources */,
 				9E6F48B526EDFB1D00E131E8 /* ButtonStyles.swift in Sources */,
 				9EA256F926E9E71A00B917A0 /* ContentView.swift in Sources */,
 				9E03453226EB693A00A62FD4 /* NavigationLinkDemo2.swift in Sources */,
 				9E6F48B026EDF86600E131E8 /* RegisterView.swift in Sources */,
+				9E05E8BC26F0A148005691D2 /* TutorialView.swift in Sources */,
+				9E05E8C026F0AA13005691D2 /* MapView.swift in Sources */,
 				9EFAD06C26EF43F8005721BF /* FAQView.swift in Sources */,
 				9EA2570926E9E79900B917A0 /* NavigationViewDemo.swift in Sources */,
 				9E6F48B226EDF87B00E131E8 /* ForgotPasswordView.swift in Sources */,
+				9E05E8C626F0AADB005691D2 /* MyTabView.swift in Sources */,
 				9EA256F726E9E71A00B917A0 /* RoutingApp.swift in Sources */,
+				9E05E8BE26F0A9CA005691D2 /* HomeView.swift in Sources */,
+				9E05E8C426F0AA2F005691D2 /* ProfileView.swift in Sources */,
 				9EFAD06E26EF4422005721BF /* FAQItem.swift in Sources */,
 				9E6F48B726EE0B4100E131E8 /* RootPresentationMode.swift in Sources */,
 			);
@@ -377,7 +413,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,7 +443,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
