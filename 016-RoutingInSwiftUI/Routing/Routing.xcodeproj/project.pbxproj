@@ -17,6 +17,10 @@
 		9E05E8C226F0AA1E005691D2 /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8C126F0AA1E005691D2 /* VideosView.swift */; };
 		9E05E8C426F0AA2F005691D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8C326F0AA2F005691D2 /* ProfileView.swift */; };
 		9E05E8C626F0AADB005691D2 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05E8C526F0AADB005691D2 /* MyTabView.swift */; };
+		9E608C3D26F1A2C800E5F0E9 /* FxTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E608C3C26F1A2C800E5F0E9 /* FxTabBar.swift */; };
+		9E608C3F26F1DC1D00E5F0E9 /* FxTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E608C3E26F1DC1D00E5F0E9 /* FxTabItem.swift */; };
+		9E608C4126F1E74500E5F0E9 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E608C4026F1E74500E5F0E9 /* TabBarRouter.swift */; };
+		9E608C4326F1EED000E5F0E9 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E608C4226F1EED000E5F0E9 /* NewPostView.swift */; };
 		9E6F48AE26EDF84900E131E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48AD26EDF84900E131E8 /* LoginView.swift */; };
 		9E6F48B026EDF86600E131E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48AF26EDF86600E131E8 /* RegisterView.swift */; };
 		9E6F48B226EDF87B00E131E8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */; };
@@ -42,6 +46,10 @@
 		9E05E8C126F0AA1E005691D2 /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
 		9E05E8C326F0AA2F005691D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9E05E8C526F0AADB005691D2 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		9E608C3C26F1A2C800E5F0E9 /* FxTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxTabBar.swift; sourceTree = "<group>"; };
+		9E608C3E26F1DC1D00E5F0E9 /* FxTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxTabItem.swift; sourceTree = "<group>"; };
+		9E608C4026F1E74500E5F0E9 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		9E608C4226F1EED000E5F0E9 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
 		9E6F48AD26EDF84900E131E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9E6F48AF26EDF86600E131E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		9E6F48B126EDF87B00E131E8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
@@ -77,9 +85,20 @@
 				9E05E8BF26F0AA13005691D2 /* MapView.swift */,
 				9E05E8C126F0AA1E005691D2 /* VideosView.swift */,
 				9E05E8C326F0AA2F005691D2 /* ProfileView.swift */,
+				9E608C4226F1EED000E5F0E9 /* NewPostView.swift */,
 				9E05E8C526F0AADB005691D2 /* MyTabView.swift */,
 			);
 			path = 04_TabView;
+			sourceTree = "<group>";
+		};
+		9E608C3B26F1A0A500E5F0E9 /* 05_CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9E608C3C26F1A2C800E5F0E9 /* FxTabBar.swift */,
+				9E608C3E26F1DC1D00E5F0E9 /* FxTabItem.swift */,
+				9E608C4026F1E74500E5F0E9 /* TabBarRouter.swift */,
+			);
+			path = 05_CustomTabBar;
 			sourceTree = "<group>";
 		};
 		9E6F48AC26EDF82600E131E8 /* 02_Push_Pop */ = {
@@ -149,6 +168,7 @@
 		9EA2570526E9E73800B917A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E608C3B26F1A0A500E5F0E9 /* 05_CustomTabBar */,
 				9E05E8B826F0890F005691D2 /* 04_TabView */,
 				9EFAD06A26EF43BC005721BF /* 03_ModalView */,
 				9E6F48AC26EDF82600E131E8 /* 02_Push_Pop */,
@@ -265,13 +285,17 @@
 				9E03453226EB693A00A62FD4 /* NavigationLinkDemo2.swift in Sources */,
 				9E6F48B026EDF86600E131E8 /* RegisterView.swift in Sources */,
 				9E05E8BC26F0A148005691D2 /* TutorialView.swift in Sources */,
+				9E608C4126F1E74500E5F0E9 /* TabBarRouter.swift in Sources */,
 				9E05E8C026F0AA13005691D2 /* MapView.swift in Sources */,
 				9EFAD06C26EF43F8005721BF /* FAQView.swift in Sources */,
 				9EA2570926E9E79900B917A0 /* NavigationViewDemo.swift in Sources */,
 				9E6F48B226EDF87B00E131E8 /* ForgotPasswordView.swift in Sources */,
+				9E608C4326F1EED000E5F0E9 /* NewPostView.swift in Sources */,
+				9E608C3F26F1DC1D00E5F0E9 /* FxTabItem.swift in Sources */,
 				9E05E8C626F0AADB005691D2 /* MyTabView.swift in Sources */,
 				9EA256F726E9E71A00B917A0 /* RoutingApp.swift in Sources */,
 				9E05E8BE26F0A9CA005691D2 /* HomeView.swift in Sources */,
+				9E608C3D26F1A2C800E5F0E9 /* FxTabBar.swift in Sources */,
 				9E05E8C426F0AA2F005691D2 /* ProfileView.swift in Sources */,
 				9EFAD06E26EF4422005721BF /* FAQItem.swift in Sources */,
 				9E6F48B726EE0B4100E131E8 /* RootPresentationMode.swift in Sources */,

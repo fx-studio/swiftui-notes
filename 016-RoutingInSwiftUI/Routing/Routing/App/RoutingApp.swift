@@ -11,7 +11,7 @@ import SwiftUI
 struct RoutingApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            FxTabBar()
         }
     }
 }
