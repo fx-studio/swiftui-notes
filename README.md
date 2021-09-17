@@ -110,7 +110,7 @@ Cấu hình đề xuất:
 3. [Modal Views & Alert](./016-RoutingInSwiftUI/03_ModalView_Alert.md)
 4. [Tabbar & PageView](./016-RoutingInSwiftUI/04_TabView.md)
 5. [Custom Tabbar](./016-RoutingInSwiftUI/05_CustomTabbar.md)
-6. SideBar
+6. [SideBar](./016-RoutingInSwiftUI/06_SideBar.md)
 7. Change Root
 
 
