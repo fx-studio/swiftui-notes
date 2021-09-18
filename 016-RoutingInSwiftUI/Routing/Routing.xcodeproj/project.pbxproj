@@ -33,6 +33,7 @@
 		9EA256FB26E9E71C00B917A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA256FA26E9E71C00B917A0 /* Assets.xcassets */; };
 		9EA256FE26E9E71C00B917A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA256FD26E9E71C00B917A0 /* Preview Assets.xcassets */; };
 		9EA2570926E9E79900B917A0 /* NavigationViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA2570826E9E79900B917A0 /* NavigationViewDemo.swift */; };
+		9EDD034A26F61B3500B88077 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD034926F61B3500B88077 /* AppRouter.swift */; };
 		9EFAD06C26EF43F8005721BF /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFAD06B26EF43F8005721BF /* FAQView.swift */; };
 		9EFAD06E26EF4422005721BF /* FAQItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFAD06D26EF4422005721BF /* FAQItem.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		9EA256FA26E9E71C00B917A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA256FD26E9E71C00B917A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EA2570826E9E79900B917A0 /* NavigationViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDemo.swift; sourceTree = "<group>"; };
+		9EDD034926F61B3500B88077 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		9EFAD06B26EF43F8005721BF /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		9EFAD06D26EF4422005721BF /* FAQItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 				9E6F48B426EDFB1D00E131E8 /* ButtonStyles.swift */,
 				9E6F48B626EE0B4100E131E8 /* RootPresentationMode.swift */,
 				9EFAD06D26EF4422005721BF /* FAQItem.swift */,
+				9EDD034926F61B3500B88077 /* AppRouter.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				9E05E8C226F0AA1E005691D2 /* VideosView.swift in Sources */,
 				9E6F48AE26EDF84900E131E8 /* LoginView.swift in Sources */,
 				9E03453026EB679E00A62FD4 /* CustomDestinationView.swift in Sources */,
+				9EDD034A26F61B3500B88077 /* AppRouter.swift in Sources */,
 				9E6F48B526EDFB1D00E131E8 /* ButtonStyles.swift in Sources */,
 				9EA256F926E9E71A00B917A0 /* ContentView.swift in Sources */,
 				9E03453226EB693A00A62FD4 /* NavigationLinkDemo2.swift in Sources */,

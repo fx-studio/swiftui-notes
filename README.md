@@ -111,7 +111,9 @@ Cấu hình đề xuất:
 4. [Tabbar & PageView](./016-RoutingInSwiftUI/04_TabView.md)
 5. [Custom Tabbar](./016-RoutingInSwiftUI/05_CustomTabbar.md)
 6. [SideBar](./016-RoutingInSwiftUI/06_SideBar.md)
-7. Change Root
+7. [Change Root](./016-RoutingInSwiftUI/07_ChangeRoot.md)
+
+
 
 
 

@@ -28,7 +28,7 @@ Về mặt kiến thức, bạn cần biết trước các kiến thức cơ b�
 4. [Tabbar & PageView](./04_TabView.md)
 5. [Custom Tabbar](./05_CustomTabbar.md)
 6. [SideBar](./06_SideBar.md)
-7. Change Root
+7. [Change Root](./07_ChangeRoot.md)
 
 ## Lưu ý
 

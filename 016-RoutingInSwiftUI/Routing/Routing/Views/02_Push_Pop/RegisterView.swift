@@ -19,6 +19,9 @@ struct RegisterView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
+    @State var isAlert = false
+    @EnvironmentObject var appRouter: AppRouter
+    
     var body: some View {
         VStack {
             // TextField
@@ -33,7 +36,14 @@ struct RegisterView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 HStack {
                     Button {
-                        // goto Home
+                        if !username.isEmpty && !password.isEmpty && !passwordConfirm.isEmpty && !email.isEmpty {
+                            // goto Home
+                            appRouter.state = .tabbar
+                        } else {
+                            // show error
+                            isAlert = true
+                        }
+                        
                     } label: {
                         Text("Done")
                     }
@@ -82,6 +92,12 @@ struct RegisterView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             //isActive = false
+        }
+        .alert(isPresented: $isAlert) {
+            Alert(title: Text("Error"),
+                  message: Text("All fields is not empty."),
+                  dismissButton: .cancel()
+            )
         }
     }
 }

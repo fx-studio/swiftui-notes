@@ -19,6 +19,8 @@ struct LoginView: View {
     @State var isPresent = false
     @State var isAlert = false
     
+    @EnvironmentObject var appRouter: AppRouter
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -47,8 +49,14 @@ struct LoginView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     HStack {
                         Button {
-                            // goto Home
-                            isAlert = true
+                            if username == "fxstudio" && password == "123" {
+                                // goto Tabbar
+                                appRouter.state = .tabbar
+                            } else {
+                                // error -> show alert
+                                isAlert = true
+                            }
+                            
                         } label: {
                             Text("Login")
                         }
@@ -128,12 +136,18 @@ struct LoginView: View {
                 FAQView(isPresent: $isPresent)
             }
             .alert(isPresented: $isAlert) {
+                /*
                 Alert(title: Text("Login"),
                       message: Text("Are you sure?"),
                       primaryButton: .default(Text("YES"), action: {
                         isAlert = false
                       }),
                       secondaryButton: .cancel(Text("NO"))
+                )
+                 */
+                Alert(title: Text("Error"),
+                      message: Text("username or password is incorrect"),
+                      dismissButton: .cancel()
                 )
             }
             
