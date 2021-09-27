@@ -18,6 +18,7 @@ struct LoginView: View {
     
     @State var isPresent = false
     @State var isAlert = false
+    @State private var showingActionSheet = false
     
     @EnvironmentObject var appRouter: AppRouter
     
@@ -88,13 +89,17 @@ struct LoginView: View {
                     // #2
                     Button {
                         // goto forgot view
-                        
+                        showingActionSheet = true
                     } label: {
+                        /*
                         NavigationLink(destination: ForgotPasswordView(isRootActive: $isActive2), isActive: $isActive2) {
                             Text("Forgot password")
                                 .frame(maxWidth: .infinity)
                         }
                         .isDetailLink(false)
+                         */
+                        Text("Forgot password")
+                            .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(GrayButton())
                     
@@ -149,6 +154,20 @@ struct LoginView: View {
                       message: Text("username or password is incorrect"),
                       dismissButton: .cancel()
                 )
+            }
+            .actionSheet(isPresented: $showingActionSheet) {
+                ActionSheet(title: Text("Forgot password"), message: Text("We will be sending a reset password link to ..."), buttons: [
+                    .default(Text("Email")) {
+                        // code
+                    },
+                    .default(Text("SMS")) {
+                        // code
+                    },
+                    .default(Text("Phone")) {
+                        // code
+                    },
+                    .cancel()
+                ])
             }
             
         }
