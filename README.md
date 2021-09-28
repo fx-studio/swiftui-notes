@@ -113,7 +113,10 @@ Cấu hình đề xuất:
 6. [SideBar](./016-RoutingInSwiftUI/06_SideBar.md)
 7. [Change Root](./016-RoutingInSwiftUI/07_ChangeRoot.md)
 
+### [Path X : Grid Layout](./017-GridLayout)
 
+1. [Basic Grid Layout](./017-GridLayout/01_BasicGridLayout.md)
+2. ...
 
 
 
