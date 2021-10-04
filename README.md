@@ -116,7 +116,9 @@ Cấu hình đề xuất:
 ### [Path X : Grid Layout](./017-GridLayout)
 
 1. [Basic Grid Layout](./017-GridLayout/01_BasicGridLayout.md)
-2. ...
+2. [Grid Item](./017-GridLayout/02_GridItem.md)
+3. [Section in Grid](./017-GridLayout/03_SectionInGrid.md)
+4. 
 
 
 

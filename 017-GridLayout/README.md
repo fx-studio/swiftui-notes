@@ -23,6 +23,9 @@ Về mặt kiến thức, bạn cần biết trước các kiến thức cơ b�
 ## Danh sách các bài viết
 
 1. [Basic Grid Layout](./01_BasicGridLayout.md)
+2. [Grid Item](./02_GridItem.md)
+3. [Section in Grid](./03_SectionInGrid.md)
+4. 
 
 ## Lưu ý
 
