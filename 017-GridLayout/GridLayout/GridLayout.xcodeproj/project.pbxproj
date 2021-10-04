@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E878455270AB79000254D52 /* SectionInGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878454270AB79000254D52 /* SectionInGridDemoView.swift */; };
+		9E878457270AB93100254D52 /* Color.Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878456270AB93100254D52 /* Color.Ext.swift */; };
+		9E878459270AF3D700254D52 /* CustomHeaderInGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */; };
+		9E87845B270AF9FE00254D52 /* SectionInHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */; };
 		9EDD02BC2702C3AC009B399B /* GridLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD02BB2702C3AC009B399B /* GridLayoutApp.swift */; };
 		9EDD02BE2702C3AC009B399B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD02BD2702C3AC009B399B /* ContentView.swift */; };
 		9EDD02C02702C3B6009B399B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDD02BF2702C3B6009B399B /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E878454270AB79000254D52 /* SectionInGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInGridDemoView.swift; sourceTree = "<group>"; };
+		9E878456270AB93100254D52 /* Color.Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.Ext.swift; sourceTree = "<group>"; };
+		9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderInGridView.swift; sourceTree = "<group>"; };
+		9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInHGridView.swift; sourceTree = "<group>"; };
 		9EDD02B82702C3AC009B399B /* GridLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDD02BB2702C3AC009B399B /* GridLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutApp.swift; sourceTree = "<group>"; };
 		9EDD02BD2702C3AC009B399B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E878453270AB76D00254D52 /* 03_Sections */ = {
+			isa = PBXGroup;
+			children = (
+				9E878454270AB79000254D52 /* SectionInGridDemoView.swift */,
+				9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */,
+				9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */,
+			);
+			path = 03_Sections;
+			sourceTree = "<group>";
+		};
 		9EDD02AF2702C3AC009B399B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +103,7 @@
 		9EDD02C92702C3FF009B399B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9E878456270AB93100254D52 /* Color.Ext.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,6 +111,7 @@
 		9EDD02CA2702C408009B399B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E878453270AB76D00254D52 /* 03_Sections */,
 				9EDD02D3270472A3009B399B /* 02_GridItem */,
 				9EDD02CC2702C43B009B399B /* 01_BasicGridLayout */,
 				9EDD02BD2702C3AC009B399B /* ContentView.swift */,
@@ -204,9 +224,13 @@
 				9EDD02D5270472C0009B399B /* FlexibleGridDemo.swift in Sources */,
 				9EDD02BE2702C3AC009B399B /* ContentView.swift in Sources */,
 				9EFC328D2706BFDA00288B83 /* MixingGridDemo.swift in Sources */,
+				9E878457270AB93100254D52 /* Color.Ext.swift in Sources */,
+				9E87845B270AF9FE00254D52 /* SectionInHGridView.swift in Sources */,
 				9EDD02D22703022B009B399B /* Demo02GridLayout.swift in Sources */,
 				9EDD02BC2702C3AC009B399B /* GridLayoutApp.swift in Sources */,
+				9E878455270AB79000254D52 /* SectionInGridDemoView.swift in Sources */,
 				9EDD02D02702CA75009B399B /* Demo01GridLayout.swift in Sources */,
+				9E878459270AF3D700254D52 /* CustomHeaderInGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +399,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
