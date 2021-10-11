@@ -25,7 +25,8 @@ Về mặt kiến thức, bạn cần biết trước các kiến thức cơ b�
 1. [Basic Grid Layout](./01_BasicGridLayout.md)
 2. [Grid Item](./02_GridItem.md)
 3. [Section in Grid](./03_SectionInGrid.md)
-4. 
+4. [Switching Grid Layout](./04_SwitchingGridLayout.md)
+5. [Multiple Grids](./05_MultipleGrid.md)
 
 ## Lưu ý
 

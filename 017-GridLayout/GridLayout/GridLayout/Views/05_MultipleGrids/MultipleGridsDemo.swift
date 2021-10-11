@@ -1,0 +1,89 @@
+//
+//  MultipleGridsDemo.swift
+//  GridLayout
+//
+//  Created by Tien Le P. VN.Danang on 10/9/21.
+//
+
+import SwiftUI
+
+struct MultipleGridsDemo: View {
+    
+    let menus = MenuItem.dummyData()
+    
+    //#1
+    @State var gridConfig: [GridItem] = [GridItem()]
+    //#3 change layout
+//    @State var gridConfig: [GridItem] = [
+//        GridItem(.adaptive(minimum: 100)),
+//        GridItem(.flexible())
+//    ]
+    
+    //#4
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
+    @Environment(\.verticalSizeClass) var verticalSizeClass: UserInterfaceSizeClass?
+    
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: gridConfig) {
+                    ForEach(menus) { menu in
+                        Image(menu.thumbnail)
+                            .resizable()
+                            .frame(maxWidth: .infinity, maxHeight: 200)
+                            .scaledToFill()
+                            .cornerRadius(10)
+                            .shadow(color: Color.primary.opacity(0.3), radius: 1)
+                        
+                        //#2 add a grid
+                        LazyVGrid(columns: [GridItem(.adaptive(minimum: 50))]) {
+                            ForEach(menu.photos) { photo in
+                                Image(photo.name)
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(minWidth: 0, maxWidth: .infinity)
+                                    .frame(height: 50)
+                                    .cornerRadius(10)
+                            }
+                        }
+                        .frame(minHeight: 0, maxHeight: .infinity, alignment: .top)
+                    }
+                }
+                .padding(10)
+            }
+            .navigationTitle("Thực đơn")
+        }
+        //#5
+//        .onAppear(perform: {
+//            if verticalSizeClass == .regular {
+//                self.gridConfig = [
+//                    GridItem(.adaptive(minimum:  verticalSizeClass == .regular  ? 250 : 100)),
+//                    GridItem(.flexible())
+//                ]
+//            } else {
+//                self.gridConfig = [
+//                    GridItem()
+//                ]
+//            }
+//        })
+        .onChange(of: verticalSizeClass) { newValue in
+            if verticalSizeClass == .regular {
+                self.gridConfig = [
+                    GridItem(.adaptive(minimum:  verticalSizeClass == .regular  ? 250 : 100)),
+                    GridItem(.flexible())
+                ]
+            } else {
+                self.gridConfig = [
+                    GridItem()
+                ]
+            }
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
+    }
+}
+
+struct MultipleGridsDemo_Previews: PreviewProvider {
+    static var previews: some View {
+        MultipleGridsDemo()
+    }
+}

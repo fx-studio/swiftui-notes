@@ -118,7 +118,8 @@ Cấu hình đề xuất:
 1. [Basic Grid Layout](./017-GridLayout/01_BasicGridLayout.md)
 2. [Grid Item](./017-GridLayout/02_GridItem.md)
 3. [Section in Grid](./017-GridLayout/03_SectionInGrid.md)
-4. 
+4. [Switching Grid Layout](./017-GridLayout/04_SwitchingGridLayout.md)
+5. [Multiple Grids](./017-GridLayout/05_MultipleGrid.md)
 
 
 

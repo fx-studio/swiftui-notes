@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E5E445D27143609001ABA26 /* SwitchingGridLayoutDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E445C27143609001ABA26 /* SwitchingGridLayoutDemo2.swift */; };
+		9E6738B1270E91A9001C2EFD /* SwitchingGridLayoutDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6738B0270E91A9001C2EFD /* SwitchingGridLayoutDemo.swift */; };
+		9E6738B3270E91DD001C2EFD /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6738B2270E91DD001C2EFD /* PhotoItem.swift */; };
 		9E878455270AB79000254D52 /* SectionInGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878454270AB79000254D52 /* SectionInGridDemoView.swift */; };
 		9E878457270AB93100254D52 /* Color.Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878456270AB93100254D52 /* Color.Ext.swift */; };
 		9E878459270AF3D700254D52 /* CustomHeaderInGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */; };
 		9E87845B270AF9FE00254D52 /* SectionInHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */; };
+		9ED929E52711832000C12F75 /* MultipleGridsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED929E42711832000C12F75 /* MultipleGridsDemo.swift */; };
+		9ED929E72711838400C12F75 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED929E62711838400C12F75 /* MenuItem.swift */; };
 		9EDD02BC2702C3AC009B399B /* GridLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD02BB2702C3AC009B399B /* GridLayoutApp.swift */; };
 		9EDD02BE2702C3AC009B399B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD02BD2702C3AC009B399B /* ContentView.swift */; };
 		9EDD02C02702C3B6009B399B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDD02BF2702C3B6009B399B /* Assets.xcassets */; };
@@ -25,10 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E5E445C27143609001ABA26 /* SwitchingGridLayoutDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingGridLayoutDemo2.swift; sourceTree = "<group>"; };
+		9E6738B0270E91A9001C2EFD /* SwitchingGridLayoutDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingGridLayoutDemo.swift; sourceTree = "<group>"; };
+		9E6738B2270E91DD001C2EFD /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
 		9E878454270AB79000254D52 /* SectionInGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInGridDemoView.swift; sourceTree = "<group>"; };
 		9E878456270AB93100254D52 /* Color.Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.Ext.swift; sourceTree = "<group>"; };
 		9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderInGridView.swift; sourceTree = "<group>"; };
 		9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInHGridView.swift; sourceTree = "<group>"; };
+		9ED929E42711832000C12F75 /* MultipleGridsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGridsDemo.swift; sourceTree = "<group>"; };
+		9ED929E62711838400C12F75 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		9EDD02B82702C3AC009B399B /* GridLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDD02BB2702C3AC009B399B /* GridLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutApp.swift; sourceTree = "<group>"; };
 		9EDD02BD2702C3AC009B399B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E6738B4270EA39F001C2EFD /* 04_SwitchingLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9E6738B0270E91A9001C2EFD /* SwitchingGridLayoutDemo.swift */,
+				9E5E445C27143609001ABA26 /* SwitchingGridLayoutDemo2.swift */,
+			);
+			path = 04_SwitchingLayout;
+			sourceTree = "<group>";
+		};
 		9E878453270AB76D00254D52 /* 03_Sections */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +81,14 @@
 				9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */,
 			);
 			path = 03_Sections;
+			sourceTree = "<group>";
+		};
+		9ED929E3271182F900C12F75 /* 05_MultipleGrids */ = {
+			isa = PBXGroup;
+			children = (
+				9ED929E42711832000C12F75 /* MultipleGridsDemo.swift */,
+			);
+			path = 05_MultipleGrids;
 			sourceTree = "<group>";
 		};
 		9EDD02AF2702C3AC009B399B = {
@@ -104,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				9E878456270AB93100254D52 /* Color.Ext.swift */,
+				9E6738B2270E91DD001C2EFD /* PhotoItem.swift */,
+				9ED929E62711838400C12F75 /* MenuItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +140,8 @@
 		9EDD02CA2702C408009B399B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9ED929E3271182F900C12F75 /* 05_MultipleGrids */,
+				9E6738B4270EA39F001C2EFD /* 04_SwitchingLayout */,
 				9E878453270AB76D00254D52 /* 03_Sections */,
 				9EDD02D3270472A3009B399B /* 02_GridItem */,
 				9EDD02CC2702C43B009B399B /* 01_BasicGridLayout */,
@@ -218,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED929E72711838400C12F75 /* MenuItem.swift in Sources */,
 				9EFC32892706B85800288B83 /* FixedGridDemo.swift in Sources */,
 				9EDD02CE2702C46A009B399B /* DemoCollectionView.swift in Sources */,
 				9EFC328B2706BD5D00288B83 /* AdaptiveGridDemo.swift in Sources */,
@@ -227,7 +259,11 @@
 				9E878457270AB93100254D52 /* Color.Ext.swift in Sources */,
 				9E87845B270AF9FE00254D52 /* SectionInHGridView.swift in Sources */,
 				9EDD02D22703022B009B399B /* Demo02GridLayout.swift in Sources */,
+				9E6738B1270E91A9001C2EFD /* SwitchingGridLayoutDemo.swift in Sources */,
 				9EDD02BC2702C3AC009B399B /* GridLayoutApp.swift in Sources */,
+				9E5E445D27143609001ABA26 /* SwitchingGridLayoutDemo2.swift in Sources */,
+				9E6738B3270E91DD001C2EFD /* PhotoItem.swift in Sources */,
+				9ED929E52711832000C12F75 /* MultipleGridsDemo.swift in Sources */,
 				9E878455270AB79000254D52 /* SectionInGridDemoView.swift in Sources */,
 				9EDD02D02702CA75009B399B /* Demo01GridLayout.swift in Sources */,
 				9E878459270AF3D700254D52 /* CustomHeaderInGridView.swift in Sources */,
