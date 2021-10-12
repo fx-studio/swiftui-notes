@@ -1,4 +1,4 @@
-# 016 - Grid Layout
+# 017 - Grid Layout
 
 Chào mừng bạn đến với repo notes này của **Fx Studio**. Chúng ta lại gặp nhau trong chặn đường mới trong vũ trụ **SwiftUI** bất tận này. Phần mới này sẽ liên quan tới một bố cục giao diện theo dạng lưới (hay ô) và chắc bạn đã quen thuộc với **CollectionView** trong **UIKit** rồi. Còn với SwiftUI, chúng nó được gọi là **Grid Layout**. Bạn sẽ lần lượt khám bán các vấn đề với **Grid Layout** để tối ưu giao diện hiển thị & đẹp hơn
 
