@@ -14,6 +14,7 @@
 		9E878457270AB93100254D52 /* Color.Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878456270AB93100254D52 /* Color.Ext.swift */; };
 		9E878459270AF3D700254D52 /* CustomHeaderInGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */; };
 		9E87845B270AF9FE00254D52 /* SectionInHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */; };
+		9EAF8E632715387800FBE71C /* MultipleGridsDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF8E622715387800FBE71C /* MultipleGridsDemo2.swift */; };
 		9ED929E52711832000C12F75 /* MultipleGridsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED929E42711832000C12F75 /* MultipleGridsDemo.swift */; };
 		9ED929E72711838400C12F75 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED929E62711838400C12F75 /* MenuItem.swift */; };
 		9EDD02BC2702C3AC009B399B /* GridLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDD02BB2702C3AC009B399B /* GridLayoutApp.swift */; };
@@ -37,6 +38,7 @@
 		9E878456270AB93100254D52 /* Color.Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.Ext.swift; sourceTree = "<group>"; };
 		9E878458270AF3D700254D52 /* CustomHeaderInGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderInGridView.swift; sourceTree = "<group>"; };
 		9E87845A270AF9FE00254D52 /* SectionInHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInHGridView.swift; sourceTree = "<group>"; };
+		9EAF8E622715387800FBE71C /* MultipleGridsDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGridsDemo2.swift; sourceTree = "<group>"; };
 		9ED929E42711832000C12F75 /* MultipleGridsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGridsDemo.swift; sourceTree = "<group>"; };
 		9ED929E62711838400C12F75 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		9EDD02B82702C3AC009B399B /* GridLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				9ED929E42711832000C12F75 /* MultipleGridsDemo.swift */,
+				9EAF8E622715387800FBE71C /* MultipleGridsDemo2.swift */,
 			);
 			path = 05_MultipleGrids;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				9ED929E72711838400C12F75 /* MenuItem.swift in Sources */,
 				9EFC32892706B85800288B83 /* FixedGridDemo.swift in Sources */,
 				9EDD02CE2702C46A009B399B /* DemoCollectionView.swift in Sources */,
+				9EAF8E632715387800FBE71C /* MultipleGridsDemo2.swift in Sources */,
 				9EFC328B2706BD5D00288B83 /* AdaptiveGridDemo.swift in Sources */,
 				9EDD02D5270472C0009B399B /* FlexibleGridDemo.swift in Sources */,
 				9EDD02BE2702C3AC009B399B /* ContentView.swift in Sources */,
