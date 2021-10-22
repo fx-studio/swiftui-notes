@@ -37,5 +37,6 @@ struct Demo02GridLayout: View {
 struct Demo02GridLayout_Previews: PreviewProvider {
     static var previews: some View {
         Demo02GridLayout()
+.previewInterfaceOrientation(.landscapeLeft)
     }
 }

@@ -10,10 +10,11 @@ import SwiftUI
 struct MyTabView: View {
     //@State var selection = 0
     @SceneStorage("selectedTab") var selection = 0
+    @State var name = ""
     
     var body: some View {
         TabView(selection: $selection) {
-            HomeView()
+            HomeView(name: $name)
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")

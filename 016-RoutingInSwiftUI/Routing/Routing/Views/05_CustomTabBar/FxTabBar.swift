@@ -11,11 +11,13 @@ struct FxTabBar: View {
     
     @StateObject var tabbarRouter = TabBarRouter()
     @State var isShowPopUp = false
+    
+    @State var name = ""
         
     @ViewBuilder var contentView: some View {
         switch tabbarRouter.currentPage {
         case .home:
-            HomeView()
+            HomeView(name: $name)
                 .environmentObject(tabbarRouter)
         case .map:
             MapView()

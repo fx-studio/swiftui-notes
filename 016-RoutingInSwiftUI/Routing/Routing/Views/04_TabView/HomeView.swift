@@ -12,20 +12,31 @@ struct HomeView: View {
     @SceneStorage("selectedTab") var selection = 0
     @EnvironmentObject var tabbarRouter: TabBarRouter
     
+    @Binding var name: String {
+        didSet {
+            print(name)
+        }
+    }
+    
     var body: some View {
         VStack {
-            Text("Home")
+            Text(name)
                 .font(.largeTitle)
+            Divider()
+            TextField("Name", text: $name)
+                .padding()
             Divider()
             HStack {
                 Button {
                     selection = 0
                     tabbarRouter.currentPage = .home
+                    name = "Tab1"
                 } label: { Text("Tab #1")  }
 
                 Button {
                     selection = 1
                     tabbarRouter.currentPage = .map
+                    name = "Tab2"
                 } label: { Text("Tab #2") }
                 
                 Button {
@@ -45,6 +56,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(name: .constant("name"))
     }
 }
